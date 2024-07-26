@@ -1,0 +1,5 @@
+from locators.basket_locators import BasketLocators
+from locators.context_menu_locators import ContextMenuLocators
+from locators.header_locators import HeaderLocators
+from locators.login_locators import LoginLocators
+from locators.order_locators import OrderLocators

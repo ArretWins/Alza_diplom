@@ -1,0 +1,6 @@
+pyflakes
+pylint
+pytest
+requests
+selenium
+webdriver-manager
