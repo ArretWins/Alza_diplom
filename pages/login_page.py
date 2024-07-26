@@ -12,3 +12,10 @@ class LoginPage(BasePage, LoginLocators):
         assert self.get_element(self.EMAIL_FIELD)
         assert self.get_element(self.PASSWORD_FIELD)
         assert self.get_element(self.LOGIN_BUTTON)
+
+    def assert_fill_invalid_login_form(self):
+        self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
+        self.fill(self.PASSWORD_FIELD, '123456789qawsed')
+        self.click(self.LOGIN_BUTTON)
+        assert self.get_element(self.LOGIN_BUTTON)
+
