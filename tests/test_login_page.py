@@ -1,10 +1,11 @@
 import time
-
+import allure
 from elements import HeaderElement
 from pages.login_page import LoginPage
 from pages.main_page import MainPage
 
 
+@allure.feature('Login Page')
 def test_invalid_login_form(driver):
     main_page = MainPage(driver)
     main_page.open()
@@ -17,6 +18,7 @@ def test_invalid_login_form(driver):
     login_page.assert_fill_invalid_login_form()
 
 
+@allure.feature('Login Page')
 def test_miss_password_login_form(driver):
     main_page = MainPage(driver)
     main_page.open()
@@ -30,6 +32,7 @@ def test_miss_password_login_form(driver):
     login_page.save_screenshot("empty_password.png")
 
 
+@allure.feature('Login Page')
 def test_miss_email_login_form(driver):
     main_page = MainPage(driver)
     main_page.open()

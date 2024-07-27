@@ -1,5 +1,7 @@
 import time
 
+import allure
+
 from elements import HeaderElement
 from pages.basket_page import BasketPage
 from pages.login_page import LoginPage
@@ -7,12 +9,14 @@ from pages.main_page import MainPage
 from pages.order_page import OrdersPage
 
 
+@allure.feature('Main page')
 def test_open_website(driver):
     main_page = MainPage(driver)
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
 
+@allure.feature('Main page')
 def test_open_orders(driver):
     main_page = MainPage(driver)
     main_page.open()
@@ -25,6 +29,7 @@ def test_open_orders(driver):
     orders_page.assert_that_orderspage_is_opened()
 
 
+@allure.feature('Main page')
 def test_open_basket(driver):
     main_page = MainPage(driver)
     main_page.open()
@@ -37,6 +42,7 @@ def test_open_basket(driver):
     basket_page.assert_that_basket_is_opened()
 
 
+@allure.feature('Main page')
 def test_context_menu(driver):
     main_page = MainPage(driver)
     main_page.open()
@@ -45,6 +51,7 @@ def test_context_menu(driver):
     main_page.assert_context()
 
 
+@allure.feature('Main page')
 def test_login(driver):
     main_page = MainPage(driver)
     main_page.open()
