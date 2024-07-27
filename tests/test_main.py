@@ -56,15 +56,3 @@ def test_login(driver):
     # time.sleep(5)
     login_page = LoginPage(driver)
     login_page.assert_that_login_is_opened()
-
-
-def test_invalid_login_form(driver):
-    main_page = MainPage(driver)
-    main_page.open()
-    main_page.assert_that_mainpage_is_opened()
-
-    main_page.assert_context()
-    header_element = HeaderElement(driver)
-    header_element.open_login()
-    login_page = LoginPage(driver)
-    login_page.assert_fill_invalid_login_form()

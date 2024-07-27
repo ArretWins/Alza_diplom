@@ -6,4 +6,4 @@ class LoginLocators:
     PASSWORD_FIELD = (By.XPATH, '//input[@id="password"]')
     LOGIN_BUTTON = (By.XPATH, '//button[@id="btnLogin"]')
     WRONG_FORM = (By.XPATH, '//button[@class="btn btn-login mt-2 invalid"]')
-    EMPTY_PASSWORD = (By.XPATH, '//span[@class="validation-message"]')
+    EMPTY_FORM = (By.XPATH, '//span[@class="validation-message"]')

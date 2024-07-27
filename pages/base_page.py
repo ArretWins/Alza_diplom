@@ -28,6 +28,19 @@ class BasePage:
         element = self.get_element(locator)
         return element.text
 
+    def get_price(self, locator):
+        element = self.get_element(locator)
+        text_element = element.text
+        stripprice = text_element.split()
+        stripprice.pop(-1)
+        combined_string = ''.join(stripprice)
+        result = int(combined_string)
+        return result
+
+    def get_href(self, locator):
+        return self.get_element(locator).get_attribute('href')
+
+
     def fill(self, locator, text):
         element = self.get_element(locator)
         element.send_keys(text)
