@@ -1,10 +1,12 @@
 import os
-
+import sys
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
+sys.path.append(os.path.abspath('.'))
 
 
 @pytest.fixture
