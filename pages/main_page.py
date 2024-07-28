@@ -6,6 +6,7 @@ from locators.header_locators import HeaderLocators
 from locators.main_page_locators import MainLocators
 import allure
 
+
 class MainPage(BasePage, HeaderLocators, MainLocators):
 
     def __init__(self, driver):
@@ -40,3 +41,27 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
             self.click(self.FIRST_ITEM_BUTTON)
             time.sleep(1)
             assert self.ITEM_TO_BASKET
+
+    def change_language(self):
+        with allure.step('Change language'):
+            self.click(self.LANGUAGE_SWITCHER)
+            web = 'Alza.sk - Jazyk / Language'
+            web2 = 'Alza.sk - Language'
+            time.sleep(1)
+            status_language_element = self.driver.find_element(*self.STATUS_LANGUAGE)
+            status_language_text = status_language_element.text
+            if web in status_language_text:
+                with allure.step('Switch to english'):
+                    self.click(self.ENGLISH_BUTTON)
+            if web2 in status_language_text:
+                with allure.step('Switch to slovak'):
+                    self.click(self.SLOVAK_BUTTON)
+            self.click(self.CONFIRM_BUTTON)
+
+    def assert_that_language_switched_to_english(self):
+        with allure.step("Assert language is switched to English"):
+            assert self.PHONES
+
+    def assert_that_language_switched_to_slovak(self):
+        with allure.step("Assert language is switched to Slovak"):
+            assert self.MOBILY

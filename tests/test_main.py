@@ -63,3 +63,22 @@ def test_login(driver):
     # time.sleep(5)
     login_page = LoginPage(driver)
     login_page.assert_that_login_is_opened()
+
+
+@allure.feature('Main page')
+def test_change_language(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.change_language()
+    # time.sleep(5)
+    main_page.assert_that_mainpage_is_opened()
+
+
+@allure.feature('Main page')
+def test_that_language_is_changed(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.change_language()
+    main_page.assert_that_language_switched_to_english()
+    main_page.change_language()
+    main_page.assert_that_language_switched_to_slovak()
