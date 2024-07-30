@@ -4,3 +4,4 @@ from locators.header_locators import HeaderLocators
 from locators.login_locators import LoginLocators
 from locators.order_locators import OrderLocators
 from locators.main_page_locators import MainLocators
+from locators.product_locators import ProductLocators

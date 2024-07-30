@@ -13,3 +13,4 @@ class MainLocators:
     CONFIRM_BUTTON = (By.XPATH, '//button[contains(text(), "Confirm")]')
     MOBILY = (By.XPATH, '//a[contains(text(),"Mobily")]')
     PHONES = (By.XPATH, '//a[contains(text(),"Phones, Smart Watches")]')
+    FIRST_PRODUCT = (By.XPATH, '//div[@class="carousel0-alz-35"]')

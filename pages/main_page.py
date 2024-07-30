@@ -4,6 +4,7 @@ from helpers import BASE_URL
 from pages.base_page import BasePage
 from locators.header_locators import HeaderLocators
 from locators.main_page_locators import MainLocators
+from locators.product_locators import ProductLocators
 import allure
 
 
@@ -20,6 +21,14 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def close_privacy_window(self):
         with allure.step('Close privacy window'):
             self.click(self.PRIVACY_WINDOW)
+
+    def open_first_product(self):
+        with allure.step('Open first product'):
+            self.click(self.FIRST_PRODUCT)
+
+    def get_name_of_first_product(self):
+        with allure.step('Get name of first product'):
+            return self.get_text(self.FIRST_PRODUCT)
 
     def get_href_of_first_product(self):
         with allure.step('Take href of first product in main page'):
