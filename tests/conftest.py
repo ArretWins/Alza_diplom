@@ -13,6 +13,7 @@ sys.path.append(os.path.abspath('.'))
 def driver():
     options = Options()
     # options.add_argument('--window-size=1920,1080')
+    options.add_argument("--disable-search-engine-choice-screen")
     chrome_install = ChromeDriverManager().install()
     folder = os.path.dirname(chrome_install)
     chromedriver_path = os.path.join(folder, "chromedriver.exe")

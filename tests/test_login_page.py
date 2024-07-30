@@ -29,7 +29,7 @@ def test_miss_password_login_form(driver):
     header_element.open_login()
     login_page = LoginPage(driver)
     login_page.assert_miss_password_login_form()
-    login_page.save_screenshot("empty_password.png")
+    # login_page.save_screenshot("empty_password.png")
 
 
 @allure.feature('Login Page')
@@ -43,4 +43,4 @@ def test_miss_email_login_form(driver):
     header_element.open_login()
     login_page = LoginPage(driver)
     login_page.assert_miss_email_login_form()
-    login_page.save_screenshot("empty_mail.png")
+    # login_page.save_screenshot("empty_mail.png")
