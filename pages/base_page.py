@@ -1,9 +1,11 @@
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import allure
+from selenium.webdriver.common.keys import Keys
 
 
 class BasePage:
@@ -93,3 +95,6 @@ class BasePage:
             select = Select(self.get_element(locator))
             select.select_by_value(value)
 
+    def back_button(self):
+        with allure.step('Navigate back'):
+            self.driver.back()
