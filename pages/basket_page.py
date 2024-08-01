@@ -26,7 +26,6 @@ class BasketPage(BasePage, BasketLocators):
             limit = 1
             while True:
                 self.click(self.PLUS_BUTTON)
-                # self.click(self.PLUS_BUTTON)
                 time.sleep(0.1)
                 try:
                     self.get_element(self.PLUS_DISABLED)
@@ -34,8 +33,22 @@ class BasketPage(BasePage, BasketLocators):
                     break
                 except TimeoutException:
                     continue
-            print("LIMIT")
 
+    def click_plus_button(self):
+        with allure.step('Click plus button'):
+            self.click(self.PLUS_BUTTON)
+
+    def click_minus_button(self):
+        with allure.step('Click minus button'):
+            self.click(self.MINUS_BUTTON)
+
+    def delete_product(self):
+        with allure.step('Click on "Delete from basket"'):
+            self.click(self.DELETE_PRODUCT)
+
+    def cancel_delete_product(self):
+        with allure.step('Cancel delete of product'):
+            self.click(self.CANCEL_DELETE_PRODUCT)
 
     def assert_that_basket_is_opened(self):
         with allure.step('Asserting basket is open'):
@@ -54,18 +67,22 @@ class BasketPage(BasePage, BasketLocators):
     def assert_plus_button_is_worked(self):
         with allure.step('Asserting plus button is worked'):
             old_price = self.get_price(self.LAST_PRICE)
-            self.click(self.PLUS_BUTTON)
+            self.click_plus_button()
             new_price = self.get_price(self.LAST_PRICE)
             assert old_price == new_price / 2
 
     def assert_minus_button_is_worked(self):
         with allure.step('Asserting minus button is worked'):
-            self.click(self.PLUS_BUTTON)
+            self.click_plus_button()
             old_price = self.get_price(self.LAST_PRICE)
-            self.click(self.MINUS_BUTTON)
+            self.click_minus_button()
             new_price = self.get_price(self.LAST_PRICE)
             assert new_price == old_price / 2
 
     def assert_disabled_plus_button(self):
         with allure.step('Asserting minus button is worked'):
             assert self.get_element(self.PLUS_DISABLED)
+
+    def assert_that_product_deleted(self):
+        with allure.step('Assert that product will be remove after click "minus button"'):
+            assert self.get_element(self.EMPTY_IMAGE)

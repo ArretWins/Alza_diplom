@@ -75,3 +75,33 @@ def test_disabled_plus_button(driver):
     basket_page.get_limit_of_product()
     time.sleep(1)
     basket_page.assert_disabled_plus_button()
+
+
+@allure.feature('Basket')
+def test_delete_product(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.close_privacy_window()
+    main_page.assert_item_to_basket()
+    header_element = HeaderElement(driver)
+    header_element.open_basket()
+
+    basket_page = BasketPage(driver)
+    basket_page.click_minus_button()
+    basket_page.delete_product()
+    basket_page.assert_that_product_deleted()
+
+
+@allure.feature('Basket')
+def test_cancel_of_delete_product(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.close_privacy_window()
+    main_page.assert_item_to_basket()
+    header_element = HeaderElement(driver)
+    header_element.open_basket()
+
+    basket_page = BasketPage(driver)
+    basket_page.click_minus_button()
+    basket_page.cancel_delete_product()
+    basket_page.assert_that_basket_is_not_empty()
