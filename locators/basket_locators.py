@@ -12,4 +12,4 @@ class BasketLocators:
     MINUS_BUTTON = (By.XPATH, '//div[@class="countMinus"]')
     EDIT_FIELD = (By.XPATH, '//div[@class="countEdit"]')
     LAST_PRICE = (By.XPATH, '//span[@class="last price"]')
-
+    PLUS_DISABLED = (By.XPATH, '//div[@class="countPlus disabled"]')

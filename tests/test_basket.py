@@ -1,3 +1,5 @@
+import time
+
 import allure
 from elements.header_element import HeaderElement
 from pages.basket_page import BasketPage
@@ -58,4 +60,18 @@ def test_minus_button(driver):
 
     basket_page = BasketPage(driver)
     basket_page.assert_minus_button_is_worked()
-    # basket_page.save_screenshot('minus_button.png')
+
+
+@allure.feature('Basket')
+def test_disabled_plus_button(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.close_privacy_window()
+    main_page.assert_item_to_basket()
+    header_element = HeaderElement(driver)
+    header_element.open_basket()
+
+    basket_page = BasketPage(driver)
+    basket_page.get_limit_of_product()
+    time.sleep(1)
+    basket_page.assert_disabled_plus_button()

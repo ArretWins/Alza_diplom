@@ -1,3 +1,7 @@
+import time
+
+from selenium.common import TimeoutException
+
 from pages.base_page import BasePage
 from locators.basket_locators import BasketLocators
 import allure
@@ -16,6 +20,22 @@ class BasketPage(BasePage, BasketLocators):
     def get_price_of_product(self):
         with allure.step('Getting price of'):
             return self.get_price(self.LAST_PRICE)
+
+    def get_limit_of_product(self):
+        with allure.step('Getting max limit of product'):
+            limit = 1
+            while True:
+                self.click(self.PLUS_BUTTON)
+                # self.click(self.PLUS_BUTTON)
+                time.sleep(0.1)
+                try:
+                    self.get_element(self.PLUS_DISABLED)
+                    limit = 2
+                    break
+                except TimeoutException:
+                    continue
+            print("LIMIT")
+
 
     def assert_that_basket_is_opened(self):
         with allure.step('Asserting basket is open'):
@@ -45,3 +65,7 @@ class BasketPage(BasePage, BasketLocators):
             self.click(self.MINUS_BUTTON)
             new_price = self.get_price(self.LAST_PRICE)
             assert new_price == old_price / 2
+
+    def assert_disabled_plus_button(self):
+        with allure.step('Asserting minus button is worked'):
+            assert self.get_element(self.PLUS_DISABLED)
