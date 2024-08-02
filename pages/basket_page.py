@@ -44,6 +44,7 @@ class BasketPage(BasePage, BasketLocators):
 
     def delete_product(self):
         with allure.step('Click on "Delete from basket"'):
+            time.sleep(1)
             self.click(self.DELETE_PRODUCT)
 
     def cancel_delete_product(self):
