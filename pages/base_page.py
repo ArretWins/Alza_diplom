@@ -20,7 +20,6 @@ class BasePage:
     def get_element(self, locator):
         with allure.step("Get element"):
             element = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(locator))
-
             return element
 
     def click(self, locator,  force=False):

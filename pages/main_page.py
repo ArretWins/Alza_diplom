@@ -1,5 +1,7 @@
 import time
 
+from selenium.common import NoSuchElementException, TimeoutException
+
 from helpers import BASE_URL
 from pages.base_page import BasePage
 from locators.header_locators import HeaderLocators
@@ -20,7 +22,11 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
 
     def close_privacy_window(self):
         with allure.step('Close privacy window'):
-            self.click(self.PRIVACY_WINDOW)
+            try:
+                self.click(self.PRIVACY_WINDOW)
+            except (NoSuchElementException, TimeoutException) as e:
+                print(f"Could not close privacy window: {e}")
+                assert False, f"Could not close privacy window: {e}"
 
     def open_first_product(self):
         with allure.step('Open first product'):

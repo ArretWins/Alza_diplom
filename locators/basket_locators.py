@@ -17,3 +17,5 @@ class BasketLocators:
     CANCEL_DELETE_PRODUCT = (By.XPATH, '//span[@class="btnx normal grey storno"]')
 
     EMPTY_IMAGE = (By.XPATH, '//img[@class="emptyImage"]')
+
+    CONTINUE_BUTTON = (By.XPATH, '//div[@id="blockBtnRight"]')

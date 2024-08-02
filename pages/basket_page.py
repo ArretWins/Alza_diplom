@@ -51,6 +51,10 @@ class BasketPage(BasePage, BasketLocators):
         with allure.step('Cancel delete of product'):
             self.click(self.CANCEL_DELETE_PRODUCT)
 
+    def open_delivery_page(self):
+        with allure.step('Open delivery page'):
+            self.click(self.CONTINUE_BUTTON)
+
     def assert_that_basket_is_opened(self):
         with allure.step('Asserting basket is open'):
             assert self.get_element(self.BASKET_STEPS)
