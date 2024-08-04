@@ -1,0 +1,13 @@
+2024-08-04 19:09:29,509 - INFO - Request was successful
+2024-08-04 19:10:46,667 - INFO - Request was successful: https://petstore.swagger.io/v2/pet -- {"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"Pig","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-04 19:22:19,937 - INFO - Request was successful: https://petstore.swagger.io/v2/pet/4 -- {"id":4,"name":"Lara","photoUrls":[],"tags":[],"status":"5000"}
+2024-08-04 19:47:11,449 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/3 -- {"code":404,"type":"unknown","message":"Order Not Found"}
+2024-08-04 20:03:30,363 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-04 20:17:44,614 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-04 20:42:45,818 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=zxcvvcxz&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1722796969024"}
+2024-08-04 20:43:11,292 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=zxcvv3124cxz&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1722796994496"}
+2024-08-04 20:44:11,298 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-04 20:44:17,621 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1722797060825"}
+2024-08-04 20:44:25,326 - ERROR - PUT Request failed: https://petstore.swagger.io/v2/user/ioioioio -- {"code":500,"type":"unknown","message":"something bad happened"}
+2024-08-04 20:46:34,972 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854761165"}
+2024-08-04 20:46:47,890 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854761174"}
