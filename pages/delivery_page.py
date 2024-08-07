@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 import allure
 
+
 class DeliveryPage(BasePage, DeliveryLocators):
 
     def __init__(self, driver):

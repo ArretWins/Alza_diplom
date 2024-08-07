@@ -10,9 +10,7 @@ from pages.main_page import MainPage
 @allure.feature('Delivery')
 def test_that_delivery_page_is_opened(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -26,9 +24,7 @@ def test_that_delivery_page_is_opened(driver):
 @allure.feature('Delivery')
 def test_alzabox(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 

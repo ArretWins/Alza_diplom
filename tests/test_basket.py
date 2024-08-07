@@ -9,9 +9,7 @@ from pages.main_page import MainPage
 @allure.feature('Basket')
 def test_basket(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     href_from_main = main_page.get_href_of_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
@@ -24,9 +22,7 @@ def test_basket(driver):
 @allure.feature('Basket')
 def test_price(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -38,9 +34,7 @@ def test_price(driver):
 @allure.feature('Basket')
 def test_plus_button(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -52,9 +46,7 @@ def test_plus_button(driver):
 @allure.feature('Basket')
 def test_minus_button(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -65,9 +57,7 @@ def test_minus_button(driver):
 @allure.feature('Basket')
 def test_disabled_plus_button(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -80,9 +70,7 @@ def test_disabled_plus_button(driver):
 @allure.feature('Basket')
 def test_delete_product(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
@@ -95,9 +83,7 @@ def test_delete_product(driver):
 @allure.feature('Basket')
 def test_cancel_of_delete_product(driver):
     main_page = MainPage(driver)
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.assert_item_to_basket()
+    main_page.buy_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 

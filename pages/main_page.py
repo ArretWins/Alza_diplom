@@ -32,6 +32,20 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         with allure.step('Open first product'):
             self.click(self.FIRST_PRODUCT)
 
+    def to_product_page(self):
+        with allure.step('Open product page'):
+            self.open()
+            self.close_privacy_window()
+            name_from_main_page = self.get_name_of_first_product()
+            self.open_first_product()
+            return name_from_main_page
+
+    def buy_first_product(self):
+        with allure.step('Buy first product'):
+            self.open()
+            self.close_privacy_window()
+            self.assert_item_to_basket()
+
     def get_name_of_first_product(self):
         with allure.step('Get name of first product'):
             return self.get_text(self.FIRST_PRODUCT)
