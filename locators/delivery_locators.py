@@ -15,7 +15,11 @@ class DeliveryLocators:
     CLOSE_DIALOG_BUTTON = (By.XPATH, '//span[contains(@class,"close-button")]')
 
     BRATISlAVA_MARKET = (By.XPATH, '//button[contains(@data-testid, "1009015-2680")]')
-    BRATISLAVA_CONFIRM = (By.XPATH, '//button[@data-testid="salesNetwork-pickupHere"]')
+    MARKET_CONFIRM = (By.XPATH, '//button[@data-testid="salesNetwork-pickupHere"]')
 
     PAY_BY_CARD_BUTTON = (By.XPATH, '//label[@for="paymentCheckbox-216"]')
+    CHECKED_LABEL = (By.XPATH, '//label[@class=" alzacheckbox classic checked"]')
+    SHOWROOM_COMFIRM = (By.XPATH, '//a[contains(@class, "green dialogButton")]')
 
+    SENEC_MARKET = (By.XPATH, '//button[@data-testid="salesNetwork-place-921"]')
+    OPENING_HOURS = (By.XPATH, '//button[@class="openingHours"]')

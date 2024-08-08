@@ -32,6 +32,38 @@ def test_alzabox(driver):
     basket_page.open_delivery_page()
     delivery_page = DeliveryPage(driver)
     delivery_page.close_dialog_window()
-    delivery_page.open_alza_box()
-    time.sleep(2)
-    delivery_page.assert_that_delivery_is_opened()
+    delivery_page.open_alzabox()
+    delivery_page.buy_alza_box()
+    delivery_page.assert_that_method_is_checked()
+
+
+@allure.feature('Delivery')
+def test_showroom(driver):
+    main_page = MainPage(driver)
+    main_page.buy_first_product()
+    header_element = HeaderElement(driver)
+    header_element.open_basket()
+
+    basket_page = BasketPage(driver)
+    basket_page.open_delivery_page()
+    delivery_page = DeliveryPage(driver)
+    delivery_page.close_dialog_window()
+    delivery_page.open_showroom()
+    delivery_page.confirm_showroom()
+    delivery_page.assert_that_method_is_checked()
+
+
+@allure.feature('Delivery')
+def test_markets(driver):
+    main_page = MainPage(driver)
+    main_page.buy_first_product()
+    header_element = HeaderElement(driver)
+    header_element.open_basket()
+
+    basket_page = BasketPage(driver)
+    basket_page.open_delivery_page()
+    delivery_page = DeliveryPage(driver)
+    delivery_page.close_dialog_window()
+    delivery_page.open_markets()
+    delivery_page.buy_in_market()
+    delivery_page.assert_that_method_is_checked()
