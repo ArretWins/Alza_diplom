@@ -44,6 +44,17 @@ class DeliveryPage(BasePage, DeliveryLocators):
         with allure.step('Open delivery to address'):
             self.click(self.DELIVERY_TO_ADDRESS)
 
+    def choose_address(self):
+        with allure.step('Choose address for delivery'):
+            self.fill(self.DELIVERY_INPUT, '040 01')
+            time.sleep(2)
+            self.fill(self.DELIVERY_INPUT, Keys.ARROW_DOWN)
+            self.fill(self.DELIVERY_INPUT, Keys.ENTER)
+
+    def confirm_delivery_time(self):
+        with allure.step('Confirm delivery time'):
+            self.click(self.DELIVERY_TIME_BUTTON)
+
     def confirm_showroom(self):
         with allure.step('Confirm showroom'):
             self.click(self.SHOWROOM_COMFIRM)
@@ -53,10 +64,14 @@ class DeliveryPage(BasePage, DeliveryLocators):
             self.click(self.BRATISlAVA_MARKET)
             self.click(self.MARKET_CONFIRM)
 
+    def buy_in_markets_and_boxes(self):
+        with allure.step('Buy in markets and boxes'):
+            self.click(self.DROGERIA)
+            self.click(self.DROGERIA_CONFIRM)
+
     def buy_in_market(self):
         with allure.step('Buy in market'):
             self.click(self.SENEC_MARKET)
-            # time.sleep(1)
             self.click(self.OPENING_HOURS)
             self.click(self.MARKET_CONFIRM)
 
