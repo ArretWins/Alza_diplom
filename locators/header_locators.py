@@ -9,3 +9,4 @@ class HeaderLocators:
     CONTEXT_MENU = (By.XPATH, '//div[@class="header-alz-141"]')
     ORDERS = (By.XPATH, '//a[@data-testid="headerOrdersIcon"]')
     BASKET = (By.XPATH, '//a[@data-testid="headerBasketIcon"]')
+    USER_LOGIN = (By.XPATH, '//span[text()="alzatestuser@gmail.com"]')

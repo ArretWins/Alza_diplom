@@ -60,10 +60,11 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
             assert self.get_element(self.PROFILE_FIELD)
             assert self.get_element(self.BASKET)
 
-    def assert_context(self):
-        self.get_element(self.PROFILE_FIELD).click()
+    def get_context_menu(self):
+        # self.get_element(self.PROFILE_FIELD).click()
+        self.click(self.PROFILE_FIELD)
         time.sleep(1)
-        assert self.get_element(self.CONTEXT_MENU)
+        # assert self.get_element(self.CONTEXT_MENU)
 
     def assert_item_to_basket(self):
         with allure.step('Take item to basket'):

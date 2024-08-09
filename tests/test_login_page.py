@@ -11,11 +11,28 @@ def test_invalid_login_form(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     login_page = LoginPage(driver)
     login_page.assert_fill_invalid_login_form()
+
+
+@allure.feature('Login Page')
+def test_correct_login(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.assert_that_mainpage_is_opened()
+
+    main_page.get_context_menu()
+    header_element = HeaderElement(driver)
+    header_element.open_login()
+    login_page = LoginPage(driver)
+    login_page.send_email()
+    login_page.send_password()
+    login_page.login()
+    main_page.get_context_menu()
+    header_element.assert_that_login_correct()
 
 
 @allure.feature('Login Page')
@@ -24,7 +41,7 @@ def test_miss_password_login_form(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     login_page = LoginPage(driver)
@@ -38,7 +55,7 @@ def test_miss_email_login_form(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     login_page = LoginPage(driver)
@@ -52,7 +69,7 @@ def test_social_buttons(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     login_page = LoginPage(driver)
@@ -65,7 +82,7 @@ def test_work_of_social_buttons(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     login_page = LoginPage(driver)

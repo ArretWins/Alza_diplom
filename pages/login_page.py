@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 
 import allure
 
+
 class LoginPage(BasePage, LoginLocators):
 
     def __init__(self, driver):
@@ -26,6 +27,17 @@ class LoginPage(BasePage, LoginLocators):
         with allure.step('Click on "forgot password" button'):
             self.click(self.FORGOT_PASSWORD)
 
+    def send_email(self):
+        with allure.step('Send email"'):
+            self.fill(self.EMAIL_FIELD, 'alzatestuser@gmail.com')
+
+    def send_password(self):
+        with allure.step('Send password'):
+            self.fill(self.PASSWORD_FIELD, 'testuser02')
+
+    def login(self):
+        with allure.step('Click on "Login" button'):
+            self.click(self.LOGIN_BUTTON)
 
     def assert_that_login_is_opened(self):
         with allure.step('Check if login is opened'):
@@ -37,19 +49,19 @@ class LoginPage(BasePage, LoginLocators):
         with allure.step('Fill in invalid login form'):
             self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
             self.fill(self.PASSWORD_FIELD, '123456789qawsed')
-            self.click(self.LOGIN_BUTTON)
+            self.login()
             assert self.get_element(self.LOGIN_BUTTON)
 
     def assert_miss_password_login_form(self):
         with allure.step('Fill login form without password'):
             self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
-            self.click(self.LOGIN_BUTTON)
+            self.login()
             assert self.get_element(self.EMPTY_FORM)
 
     def assert_miss_email_login_form(self):
         with allure.step('Fill login form without email'):
             self.fill(self.PASSWORD_FIELD, '123456789qawsed')
-            self.click(self.LOGIN_BUTTON)
+            self.login()
             assert self.get_element(self.EMPTY_FORM)
 
     def assert_login_social_buttons(self):
