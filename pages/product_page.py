@@ -1,4 +1,6 @@
 import time
+
+from selenium.common import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 from pages.base_page import BasePage
 from locators.product_locators import ProductLocators
@@ -34,22 +36,22 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
             self.fill(self.DELIVERY_INPUT, Keys.ARROW_DOWN)
             self.fill(self.DELIVERY_INPUT, Keys.ENTER)
 
+    def close_privacy_window(self):
+        with allure.step('Close privacy window'):
+            try:
+                self.click(self.PRIVACY_WINDOW)
+            except (NoSuchElementException, TimeoutException) as e:
+                pass
+
     def buy_product(self):
         with allure.step('Buy products'):
+            self.close_privacy_window()
             # time.sleep(12)
             self.click(self.BUY_BUTTON)
-            # time.sleep(1)
             try:
                 self.click(self.CLOSE_DIALOG_BUTTON)
             except Exception as e:
                 print(f"Dialog box did not appear: {e}")
-
-    # def buy_product_with_back(self):
-    #     with allure.step('Buy products'):
-    #         self.click(self.BUY_BUTTON)
-    #         time.sleep(1)
-    #         self.click(self.CLOSE_DIALOG_BUTTON)
-    #         self.click(self.BACK_TO_PRODUCT_BUTTON)
 
     def assert_that_productpage_is_opened(self):
         with allure.step('Assert product page is opened'):
@@ -71,7 +73,8 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
 
     def assert_that_login_is_opened(self):
         with allure.step('Assert login is opened'):
-            self.click_comment_button()
+            # self.driver.execute_script("arguments[0].focus();", self.LOGIN_TITLE)
+            # self.click_comment_button()
             assert self.get_element(self.EMAIL_FIELD)
             assert self.get_element(self.PASSWORD_FIELD)
             assert self.get_element(self.LOGIN_BUTTON)

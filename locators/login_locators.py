@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class LoginLocators:
+    LOGIN_TITLE = (By.XPATH, '//div[@class="login-title"]')
     EMAIL_FIELD = (By.XPATH, '//input[@id="userName"]')
     PASSWORD_FIELD = (By.XPATH, '//input[@id="password"]')
     LOGIN_BUTTON = (By.XPATH, '//button[@id="btnLogin"]')

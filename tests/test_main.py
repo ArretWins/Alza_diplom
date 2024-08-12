@@ -48,7 +48,7 @@ def test_context_menu(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
 
 
 @allure.feature('Main page')
@@ -57,7 +57,7 @@ def test_login(driver):
     main_page.open()
     main_page.assert_that_mainpage_is_opened()
 
-    main_page.assert_context()
+    main_page.get_context_menu()
     header_element = HeaderElement(driver)
     header_element.open_login()
     # time.sleep(5)

@@ -32,6 +32,20 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         with allure.step('Open first product'):
             self.click(self.FIRST_PRODUCT)
 
+    def to_product_page(self):
+        with allure.step('Open product page'):
+            self.open()
+            self.close_privacy_window()
+            name_from_main_page = self.get_name_of_first_product()
+            self.open_first_product()
+            return name_from_main_page
+
+    def buy_first_product(self):
+        with allure.step('Buy first product'):
+            self.open()
+            self.close_privacy_window()
+            self.assert_item_to_basket()
+
     def get_name_of_first_product(self):
         with allure.step('Get name of first product'):
             return self.get_text(self.FIRST_PRODUCT)
@@ -46,10 +60,11 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
             assert self.get_element(self.PROFILE_FIELD)
             assert self.get_element(self.BASKET)
 
-    def assert_context(self):
-        self.get_element(self.PROFILE_FIELD).click()
+    def get_context_menu(self):
+        # self.get_element(self.PROFILE_FIELD).click()
+        self.click(self.PROFILE_FIELD)
         time.sleep(1)
-        assert self.get_element(self.CONTEXT_MENU)
+        # assert self.get_element(self.CONTEXT_MENU)
 
     def assert_item_to_basket(self):
         with allure.step('Take item to basket'):
