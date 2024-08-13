@@ -34,7 +34,7 @@ def test_alzabox(driver):
     delivery_page.close_dialog_window()
     delivery_page.open_alzabox()
     delivery_page.buy_alza_box()
-    delivery_page.assert_that_method_is_checked()
+    delivery_page.assert_that_alzabox_is_checked()
 
 
 @allure.feature('Delivery')

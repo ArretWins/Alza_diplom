@@ -1,6 +1,6 @@
 from selenium.webdriver.support import expected_conditions as EC
 import allure
-from selenium.common import TimeoutException
+from selenium.common import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -16,6 +16,14 @@ class Assertions:
 
     def assert_that_element_is_visible(self, locator, by=By.XPATH):
         assert self.driver.find_element(by, locator)
+
+    def assert_that_element_is_invisible(self, locator):
+        by, value = locator
+        try:
+            self.driver.find_element(by, value)
+            assert False, f"Element with locator '{value}' was found, but it should be invisible."
+        except NoSuchElementException:
+            pass
 
     def assert_that_attribute_is_visible(self, locator, attribute, value, by=By.XPATH):
         el = self.driver.find_element(by, locator)

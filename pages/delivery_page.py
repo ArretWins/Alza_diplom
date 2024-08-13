@@ -1,7 +1,7 @@
 import time
 
 from selenium.common import NoSuchElementException, TimeoutException
-
+from helpers.assertions import Assertions
 from pages.base_page import BasePage
 from locators.delivery_locators import DeliveryLocators
 from selenium.webdriver.common.keys import Keys
@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 import allure
 
 
-class DeliveryPage(BasePage, DeliveryLocators):
+class DeliveryPage(BasePage, DeliveryLocators, Assertions):
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -82,3 +82,11 @@ class DeliveryPage(BasePage, DeliveryLocators):
     def assert_that_method_is_checked(self):
         with allure.step('Check if payment method is checked'):
             assert self.get_element(self.CHECKED_LABEL)
+
+    def assert_that_alzabox_is_checked(self):
+        with allure.step('Check if alzabox method is checked'):
+            self.assert_that_method_is_checked()
+            self.assert_that_element_is_invisible(self.SHOWROOM)
+            self.assert_that_element_is_invisible(self.MARKET)
+            self.assert_that_element_is_invisible(self.MARKETS_AND_BOXES)
+            self.assert_that_element_is_invisible(self.DELIVERY_TO_ADDRESS)
