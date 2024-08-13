@@ -1,4 +1,5 @@
 from services.base_service import BaseService
+import allure
 
 
 class PetStoreService(BaseService):
@@ -9,28 +10,30 @@ class PetStoreService(BaseService):
         self.url = 'https://petstore.swagger.io/v2/pet'
 
     def add_pet(self, pet):
-        body = {
-            "id": 0,
-            "category": {
+        with allure.step('Add pet'):
+            body = {
                 "id": 0,
-                "name": "string"
-            },
-            "name": pet,
-            "photoUrls": [
-                "string"
-            ],
-            "tags": [
-                {
+                "category": {
                     "id": 0,
                     "name": "string"
-                }
-            ],
-            "status": "available"
-        }
+                },
+                "name": pet,
+                "photoUrls": [
+                    "string"
+                ],
+                "tags": [
+                    {
+                        "id": 0,
+                        "name": "string"
+                    }
+                ],
+                "status": "available"
+            }
 
-        url = self.url
-        return self.post_request(url=url, body=body)
+            url = self.url
+            return self.post_request(url=url, body=body)
 
     def get_pet_by_id(self, pet_id):
-        url = f'{self.url}/{pet_id}'
-        return self.get_request(url=url)
+        with allure.step('Get pet by id'):
+            url = f'{self.url}/{pet_id}'
+            return self.get_request(url=url)

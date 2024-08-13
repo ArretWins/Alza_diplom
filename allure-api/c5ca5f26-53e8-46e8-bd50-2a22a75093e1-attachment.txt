@@ -1,0 +1,1 @@
+[32mINFO    [0m root:base_service.py:66 DELETE Request was successful: https://petstore.swagger.io/v2/store/order/1 -- {"code":404,"type":"unknown","message":"Order Not Found"}

@@ -5,9 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1f9e395-a30f-451a-a0dd-c79d78c73442" name="Changes" comment="switch">
-      <change beforePath="$PROJECT_DIR$/helpers/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/00a9550c-33f9-42f7-94a9-41339378c63f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/03463282-676a-4a62-838b-1a76c1e204bd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/07ee1574-a2c8-43c1-8b24-ed55422a3ec4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/09c39e76-410a-4aeb-9696-35411fcaa351-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0df64ac9-7d19-4350-bec1-3e3e9e822958-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/17e59974-4f3c-4fdb-8e07-76b02c0d1bf9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1cf09bc9-a454-4f15-bdc7-f659d3e61692-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d3019f3-e2b6-46d2-822d-3b918a4aa560-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1dc92e25-0284-42cb-913e-22fe9f87348e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/214e5e7d-26d3-46f7-ac53-31ad01f487bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/21da0ee4-89b9-4816-b24b-25bc2d8375ee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2814109c-8e99-40df-8392-26a5974c82a8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2854115c-2cad-4544-b478-320f70f76022-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2e25249c-62a5-4a97-afc4-631e828abd6d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f84adf7-3563-4609-a490-b31cb569428a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/32d85f1c-cd62-4407-9b92-305c5fccdd24-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3996310e-f69a-4c2e-b357-7ee36385b48d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/43df925e-9f04-45d3-9c14-e508a4e8b77a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/489f0d4e-4c86-4865-af52-1f67433b1d91-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4b0e087b-94ac-42ee-bc79-7016c094f3fd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/502b2922-212e-4a76-92ba-59d255dfc380-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/50b46b13-ba57-42a9-937b-8575f86f9377-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/50d849d1-6bb4-4ac3-9842-24274a62374d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/52cdd33a-7870-4aab-848f-e0e0149bdf77-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/550a6044-6254-4d64-a2cd-03a6348e647b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5abc3235-80e8-4432-9166-12a00c412af9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5bf66d82-5f43-424e-9e6a-7da257fd264b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5ca490ca-3c75-4a73-9cbe-53fbedbe4312-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5dde502a-1a1d-461c-91db-68f2f8c36baf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5f555e3e-13c7-440b-877c-dccb1eb2301b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/65e89fbd-a24b-4bf5-817a-d087bbf37675-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66ed90d6-d778-4338-98ac-014fefe51f1f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/682aa386-61d3-421f-903a-49a0a7e9c0c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/68571573-c461-4f65-a438-f495e61feacb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7093b17d-d2de-41ea-89ca-64f92b1478ab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/772a67f3-5ee9-4a1c-b137-f8a066bdf2e4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a4a1d5b-84f2-4a28-9aad-d0e24963742f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7ae91c5c-4bfa-4491-9f04-820478a6a126-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7bfd2677-0ca4-43ee-83f2-e35bc98cfd53-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7e357cc1-d04c-4a1a-bdf8-f92898cb15c2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9849149b-3a91-40d3-a497-67ee20d7ede5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98d1c70a-620b-4723-8b5c-485d23071174-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9e77558a-c4fd-4829-9163-d43f091779f0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a6c8a616-63ff-4469-a7b1-d27538cb25e9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a7bb9ccf-5124-485a-97b9-c8fb41bcb5d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ac1a8d39-cac6-4f07-8b00-9430f4ee1dc4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b1d3200f-4882-4768-a903-18241509d3d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b681fcfa-de4f-499c-9cb9-6d2bac15ab71-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b6ac1913-f29b-4101-8dad-90c423b2f69f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bf264fed-4e5e-422c-a23c-d47648da62c9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c29ac9d8-faa5-4507-9c6e-d8efc2b93719-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c2e2826c-8542-4661-b04e-68494c0a94ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c426d9e5-816c-4c47-9be8-6acb63aa1c82-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c5115229-1d4b-41ff-a965-7b4e2603a5b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cbb65b67-36ad-4ca2-954a-65e546012c9b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d758f893-e9b6-4127-9699-bd5a9d92fb5d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e0380955-9837-456d-9fbc-1af7c5b27cbf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e0cb781d-6798-4907-9a68-25336bbdf667-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1729405-dbcd-4456-9e96-1990eee7f5b3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1e8d31d-3059-45f4-856d-96265d0d0692-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e3b3f2db-c6f4-47ca-9e3b-a1bda9d87071-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e612f7b6-d7eb-4bd0-887f-3b38ecd3783c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e80dda66-62ab-41df-9383-2f509dc0becb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ea824a98-f40e-4dd5-9479-44e46f911a0d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eae494d8-ed7d-4629-92d5-792ffcce846a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef5f04ec-6ff1-4780-b548-87c7f2fb60f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f846d544-ea7c-4b6b-92ae-4231bc0ba8d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/delivery_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/delivery_locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/delivery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/delivery_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/base_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/base_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/petstore_swagger_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/petstore_swagger_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/store_swagger_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/store_swagger_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_delivery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_delivery_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_petstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_petstore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,47 +195,50 @@
       <recent name="D:\PycharmProjects\Alza_diplom\locators" />
       <recent name="D:\PycharmProjects\Alza_diplom" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Alza_diplom\tests\api" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_delivery_page.test_alzabox">
+  <component name="RunManager" selected="Python tests.Python tests for test_petstore.test_get_pet_by_id">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_delivery_page.test_alzabox" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_petstore.test_add_pet" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_page.test_alzabox&quot;" />
+      <option name="_new_target" value="&quot;test_petstore.test_add_pet&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_delivery_page.test_markets_and_boxes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_petstore.test_get_pet_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_page.test_markets_and_boxes&quot;" />
+      <option name="_new_target" value="&quot;test_petstore.test_get_pet_by_id&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_page.test_correct_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_user.test_create_with_array" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +250,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_correct_login&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_user.test_create_with_array&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_page.test_invalid_login_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_user.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,11 +266,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_invalid_login_form&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_user.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_page.test_miss_email_login_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_user.test_update_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,17 +282,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_miss_email_login_form&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_user.test_update_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_delivery_page.test_alzabox" />
-        <item itemvalue="Python tests.Python tests for test_login_page.test_miss_email_login_form" />
-        <item itemvalue="Python tests.Python tests for test_login_page.test_invalid_login_form" />
-        <item itemvalue="Python tests.Python tests for test_login_page.test_correct_login" />
-        <item itemvalue="Python tests.Python tests for test_delivery_page.test_markets_and_boxes" />
+        <item itemvalue="Python tests.Python tests for test_petstore.test_get_pet_by_id" />
+        <item itemvalue="Python tests.Python tests for test_petstore.test_add_pet" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_user.test_update_user" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_user.test_login" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_user.test_create_with_array" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +350,7 @@
       <workItem from="1723372506138" duration="5000" />
       <workItem from="1723489346830" duration="140000" />
       <workItem from="1723499082904" duration="426000" />
-      <workItem from="1723553048042" duration="1493000" />
+      <workItem from="1723553048042" duration="6506000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -313,7 +392,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_invalid_login_form.coverage" NAME="pytest for test_main.test_invalid_login_form Coverage Results" MODIFIED="1722026139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723554513217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723559163765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/api" />
     <SUITE FILE_PATH="coverage/Alza_diplom$sql_lesson.coverage" NAME="sql_lesson Coverage Results" MODIFIED="1722882533648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_open_orders.coverage" NAME="pytest for test_main.test_open_orders Coverage Results" MODIFIED="1722025100291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Alza_diplom$apis.coverage" NAME="apis Coverage Results" MODIFIED="1722784586792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

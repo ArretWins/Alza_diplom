@@ -50,7 +50,7 @@ def test_showroom(driver):
     delivery_page.close_dialog_window()
     delivery_page.open_showroom()
     delivery_page.confirm_showroom()
-    delivery_page.assert_that_method_is_checked()
+    delivery_page.assert_that_showroom_is_checked()
 
 
 @allure.feature('Delivery')
@@ -66,7 +66,7 @@ def test_markets(driver):
     delivery_page.close_dialog_window()
     delivery_page.open_markets()
     delivery_page.buy_in_market()
-    delivery_page.assert_that_method_is_checked()
+    delivery_page.assert_that_market_is_checked()
 
 
 @allure.feature('Delivery')
@@ -81,8 +81,8 @@ def test_markets_and_boxes(driver):
     delivery_page = DeliveryPage(driver)
     delivery_page.close_dialog_window()
     delivery_page.open_markets_and_boxes()
-    delivery_page.buy_in_markets_and_boxes()
-    delivery_page.assert_that_method_is_checked()
+    delivery_page.buy_alza_box()
+    delivery_page.assert_that_markets_and_boxes_is_checked()
 
 
 @allure.feature('Delivery')

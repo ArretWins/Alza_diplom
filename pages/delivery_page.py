@@ -61,17 +61,13 @@ class DeliveryPage(BasePage, DeliveryLocators, Assertions):
 
     def buy_alza_box(self):
         with allure.step('Buy in alza box'):
-            self.click(self.BRATISlAVA_MARKET)
+            self.click(self.BRATISlAVA_MARKET, True)
+            time.sleep(1)
             self.click(self.MARKET_CONFIRM)
-
-    def buy_in_markets_and_boxes(self):
-        with allure.step('Buy in markets and boxes'):
-            self.click(self.DROGERIA)
-            self.click(self.DROGERIA_CONFIRM)
 
     def buy_in_market(self):
         with allure.step('Buy in market'):
-            self.click(self.SENEC_MARKET)
+            self.click(self.STREDA_MARKET, True)
             self.click(self.OPENING_HOURS)
             self.click(self.MARKET_CONFIRM)
 
@@ -90,3 +86,35 @@ class DeliveryPage(BasePage, DeliveryLocators, Assertions):
             self.assert_that_element_is_invisible(self.MARKET)
             self.assert_that_element_is_invisible(self.MARKETS_AND_BOXES)
             self.assert_that_element_is_invisible(self.DELIVERY_TO_ADDRESS)
+
+    def assert_that_showroom_is_checked(self):
+        with allure.step('Check if showroom method is checked'):
+            self.assert_that_method_is_checked()
+            self.assert_that_element_is_invisible(self.ALZA_BOX)
+            self.assert_that_element_is_invisible(self.MARKET)
+            self.assert_that_element_is_invisible(self.MARKETS_AND_BOXES)
+            self.assert_that_element_is_invisible(self.DELIVERY_TO_ADDRESS)
+
+    def assert_that_market_is_checked(self):
+        with allure.step('Check if market method is checked'):
+            self.assert_that_method_is_checked()
+            self.assert_that_element_is_invisible(self.ALZA_BOX)
+            self.assert_that_element_is_invisible(self.SHOWROOM)
+            self.assert_that_element_is_invisible(self.MARKETS_AND_BOXES)
+            self.assert_that_element_is_invisible(self.DELIVERY_TO_ADDRESS)
+
+    def assert_that_markets_and_boxes_is_checked(self):
+        with allure.step('Check if markets and boxes method is checked'):
+            self.assert_that_method_is_checked()
+            self.assert_that_element_is_invisible(self.ALZA_BOX)
+            self.assert_that_element_is_invisible(self.SHOWROOM)
+            self.assert_that_element_is_invisible(self.MARKET)
+            self.assert_that_element_is_invisible(self.DELIVERY_TO_ADDRESS)
+
+    def assert_that_delivery_to_address_is_checked(self):
+        with allure.step('Check if delivery method is checked'):
+            self.assert_that_method_is_checked()
+            self.assert_that_element_is_invisible(self.ALZA_BOX)
+            self.assert_that_element_is_invisible(self.SHOWROOM)
+            self.assert_that_element_is_invisible(self.MARKET)
+            self.assert_that_element_is_invisible(self.MARKETS_AND_BOXES)
