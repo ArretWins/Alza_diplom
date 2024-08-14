@@ -1,1 +1,0 @@
-[32mINFO    [0m root:base_service.py:22 POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}

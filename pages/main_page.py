@@ -66,8 +66,13 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         time.sleep(1)
         # assert self.get_element(self.CONTEXT_MENU)
 
+    def go_to_laptops(self):
+        with allure.step('Go to laptops page'):
+            self.click(self.LAPTOPS)
+
     def assert_item_to_basket(self):
         with allure.step('Take item to basket'):
+            self.go_to_laptops()
             self.click(self.FIRST_ITEM_BUTTON)
             time.sleep(1)
             assert self.ITEM_TO_BASKET

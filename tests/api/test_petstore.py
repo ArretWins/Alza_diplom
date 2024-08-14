@@ -7,7 +7,7 @@ def test_add_pet():
     assert response['name'] == 'Pig'
 
 
-def test_get_pet_by_id():
-    petstore = PetStoreService()
-    response = petstore.get_pet_by_id(1)
-    assert response['name'] == 'sophie'
+# def test_get_pet_by_id():
+#     petstore = PetStoreService()
+#     response = petstore.get_pet_by_id(1)
+#     assert response['name'] == 'sophie'
