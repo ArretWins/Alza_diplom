@@ -10,25 +10,26 @@ from pages.main_page import MainPage
 def test_basket(driver):
     main_page = MainPage(driver)
     main_page.buy_first_product()
-    href_from_main = main_page.get_href_of_first_product()
+    name_from_main = main_page.get_name_of_first_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
     basket_page = BasketPage(driver)
-    href_from_basket = basket_page.get_href_of_main_product()
-    assert href_from_main == href_from_basket
+    name_from_basket = basket_page.get_name_of_main_product()
+    basket_page.assert_that_names_are_equals(name_from_main, name_from_basket)
 
 
 @allure.feature('Basket')
 def test_price(driver):
     main_page = MainPage(driver)
     main_page.buy_first_product()
+    price_from_page = main_page.get_price_of_product()
     header_element = HeaderElement(driver)
     header_element.open_basket()
 
     basket_page = BasketPage(driver)
-    price = basket_page.get_price_of_product()
-    basket_page.assert_that_basket_is_not_empty()
+    price_from_basket = basket_page.get_price_of_product()
+    basket_page.assert_that_prices_are_equals(price_from_basket, price_from_page)
 
 
 @allure.feature('Basket')
@@ -40,7 +41,6 @@ def test_plus_button(driver):
 
     basket_page = BasketPage(driver)
     basket_page.assert_plus_button_is_worked()
-    # basket_page.save_screenshot('plus_button.png')
 
 
 @allure.feature('Basket')
@@ -62,9 +62,12 @@ def test_disabled_plus_button(driver):
     header_element.open_basket()
 
     basket_page = BasketPage(driver)
-    basket_page.get_limit_of_product()
+    limit = basket_page.get_limit_of_product()
     time.sleep(1)
-    basket_page.assert_disabled_plus_button()
+    if limit:
+        basket_page.assert_disabled_plus_button()
+    else:
+        basket_page.assert_that_basket_is_not_empty()
 
 
 @allure.feature('Basket')

@@ -81,7 +81,7 @@ def test_markets_and_boxes(driver):
     delivery_page = DeliveryPage(driver)
     delivery_page.close_dialog_window()
     delivery_page.open_markets_and_boxes()
-    delivery_page.buy_alza_box()
+    delivery_page.buy_in_markets_and_boxes()
     delivery_page.assert_that_markets_and_boxes_is_checked()
 
 
@@ -99,4 +99,4 @@ def test_delivery_to_address(driver):
     delivery_page.open_delivery_to_address()
     delivery_page.choose_address()
     delivery_page.confirm_delivery_time()
-    delivery_page.assert_that_method_is_checked()
+    delivery_page.assert_that_delivery_to_address_is_checked()

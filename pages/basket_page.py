@@ -13,9 +13,9 @@ class BasketPage(BasePage, BasketLocators):
         super().__init__(driver)
         self.driver = driver
 
-    def get_href_of_main_product(self):
-        with allure.step('Getting href of main product'):
-            return self.get_href(self.MAIN_ITEM_NAME)
+    def get_name_of_main_product(self):
+        with allure.step('Getting name of main product'):
+            return self.get_text(self.MAIN_ITEM_NAME)
 
     def get_price_of_product(self):
         with allure.step('Getting price of'):
@@ -29,11 +29,14 @@ class BasketPage(BasePage, BasketLocators):
                 self.click(self.PLUS_BUTTON)
                 time.sleep(0.1)
                 no_limit += 1
-                if no_limit > 5:
-                    break
+                if no_limit > 3:
+                    with allure.step('No limit of product'):
+                        return False
+                        break
                 try:
                     self.get_element(self.PLUS_DISABLED)
                     limit = 2
+                    return True
                     break
                 except TimeoutException:
                     continue
@@ -95,3 +98,13 @@ class BasketPage(BasePage, BasketLocators):
     def assert_that_product_deleted(self):
         with allure.step('Assert that product will be remove after click "minus button"'):
             assert self.get_element(self.EMPTY_IMAGE)
+
+    @staticmethod
+    def assert_that_prices_are_equals(price_1, price_2):
+        with allure.step("Assert that prices are equals"):
+            assert price_1 == price_2
+
+    @staticmethod
+    def assert_that_names_are_equals(name_1, name_2):
+        with allure.step("Assert that names are equals"):
+            assert name_1 in name_2

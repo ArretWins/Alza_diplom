@@ -37,16 +37,6 @@ def test_comment_button(driver):
     product_page.assert_that_login_is_opened()
 
 
-# @allure.feature('Product page')
-# def test_buy_button(driver):
-#     main_page = MainPage(driver)
-#     main_page.to_product_page()
-#     product_page = ProductPage(driver)
-#     product_page.buy_products_with_back()
-#     product_page.close_privacy_window()
-#     product_page.assert_that_productpage_is_opened()
-
-
 @allure.feature('Product page')
 def test_buy_button(driver):
     main_page = MainPage(driver)

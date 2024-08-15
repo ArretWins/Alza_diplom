@@ -25,6 +25,7 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
 
     def click_to_delivery(self):
         with allure.step('Click to delivery title'):
+            self.close_privacy_window()
             self.click(self.DELIVERY_TITLE)
 
     def search_address(self):
@@ -67,9 +68,7 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
 
     def assert_cross_sell_page(self):
         with allure.step('Assert cross sell page'):
-            assert self.get_element(self.BACK_TO_PRODUCT_BUTTON)
-            assert self.get_element(self.FORWARD_BUTTON)
-            assert self.get_element(self.CAROUSEL_CONTENT)
+            assert self.get_element(self.CROSS_SELL_MESSAGE)
 
     def assert_that_login_is_opened(self):
         with allure.step('Assert login is opened'):

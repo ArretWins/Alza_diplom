@@ -22,3 +22,5 @@ class ProductLocators:
     CAROUSEL_CONTENT = (By.XPATH, '//div[@data-testid="carousel-RecommendedAccessoryCarousel_1_70"]')
     BACK_TO_PRODUCT_BUTTON = (By.XPATH, '//a[@id="varBBackButton"]')
     FORWARD_BUTTON = (By.XPATH, '//a[@id="varBToBasketButton"]')
+
+    CROSS_SELL_MESSAGE = (By.XPATH, '//a[@class="productInfo__texts__message"]')

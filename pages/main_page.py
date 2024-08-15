@@ -35,6 +35,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def to_product_page(self):
         with allure.step('Open product page'):
             self.open()
+            self.go_to_laptops()
             self.close_privacy_window()
             name_from_main_page = self.get_name_of_first_product()
             self.open_first_product()
@@ -43,16 +44,20 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def buy_first_product(self):
         with allure.step('Buy first product'):
             self.open()
-            self.close_privacy_window()
+            # self.close_privacy_window()
             self.assert_item_to_basket()
 
     def get_name_of_first_product(self):
         with allure.step('Get name of first product'):
             return self.get_text(self.FIRST_PRODUCT)
 
-    def get_href_of_first_product(self):
-        with allure.step('Take href of first product in main page'):
-            return self.get_href(self.FIRST_ITEM_NAME)
+    # def get_name_of_first_product(self):
+    #     with allure.step('Take name of first product in main page'):
+    #         return self.get_href(self.FIRST_ITEM_NAME)
+
+    def get_price_of_product(self):
+        with allure.step('Getting price from main page'):
+            return self.get_price(self.FINAL_PRICE)
 
     def assert_that_mainpage_is_opened(self):
         with allure.step('Assert main page is opened'):
@@ -73,8 +78,9 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def assert_item_to_basket(self):
         with allure.step('Take item to basket'):
             self.go_to_laptops()
+            self.close_privacy_window()
             self.click(self.FIRST_ITEM_BUTTON)
-            time.sleep(1)
+            time.sleep(2)
             assert self.ITEM_TO_BASKET
 
     def change_language(self):

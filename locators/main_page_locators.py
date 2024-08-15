@@ -17,3 +17,4 @@ class MainLocators:
     MOBILY = (By.XPATH, '//a[contains(text(),"Mobily")]')
     PHONES = (By.XPATH, '//a[contains(text(),"Phones, Smart Watches")]')
     FIRST_PRODUCT = (By.XPATH, '//div[@class="carousel0-alz-35"]')
+    FINAL_PRICE = (By.XPATH, '//span[@data-testid="finalPrice"]')

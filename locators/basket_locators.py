@@ -12,6 +12,7 @@ class BasketLocators:
     MINUS_BUTTON = (By.XPATH, '//div[@class="countMinus"]')
     EDIT_FIELD = (By.XPATH, '//div[@class="countEdit"]')
     LAST_PRICE = (By.XPATH, '//span[@class="last price"]')
+
     PLUS_DISABLED = (By.XPATH, '//div[@class="countPlus disabled"]')
     DELETE_PRODUCT = (By.XPATH, '//span[@class="btnx normal green ok"]')
     CANCEL_DELETE_PRODUCT = (By.XPATH, '//span[@class="btnx normal grey storno"]')
