@@ -3,8 +3,10 @@ from services.petstore_swagger_service import PetStoreService
 
 def test_add_pet():
     petstore = PetStoreService()
-    response = petstore.add_pet(375, 'Martin')
-    assert response['name'] == 'Martin'
+    pet_id = 375
+    pet = 'Martin'
+    response = petstore.add_pet(pet_id, pet)
+    assert response['name'] == pet
 
 
 def test_update_pet_by_id():
