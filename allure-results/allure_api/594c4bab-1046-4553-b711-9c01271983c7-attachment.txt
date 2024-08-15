@@ -1,0 +1,1 @@
+[32mINFO    [0m root:base_service.py:66 DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}

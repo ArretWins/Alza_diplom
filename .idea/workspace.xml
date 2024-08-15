@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1f9e395-a30f-451a-a0dd-c79d78c73442" name="Changes" comment="switch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/store_swagger_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/store_swagger_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/user_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/api/.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api/test_petstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_petstore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,10 +98,14 @@
     "Python tests.Python tests for test_product.test_product_page.executor": "Run",
     "Python tests.Python tests for test_store.test_add.executor": "Run",
     "Python tests.Python tests for test_store.test_delete.executor": "Run",
+    "Python tests.Python tests for test_store.test_get_order_by_id.executor": "Run",
     "Python tests.Python tests for test_user.test_create_with_array.executor": "Run",
+    "Python tests.Python tests for test_user.test_delete_user.executor": "Run",
+    "Python tests.Python tests for test_user.test_get_user_by_username.executor": "Run",
     "Python tests.Python tests for test_user.test_login.executor": "Run",
     "Python tests.Python tests for test_user.test_update_user.executor": "Run",
     "Python tests.Python tests in test_petstore.py.executor": "Run",
+    "Python tests.Python tests in test_user.py.executor": "Run",
     "Python tests.pytest for test_main.test_invalid_login_form.executor": "Run",
     "Python tests.pytest for test_main.test_open_orders.executor": "Run",
     "Python.apis.executor": "Run",
@@ -130,14 +133,14 @@
       <recent name="D:\PycharmProjects\Alza_diplom\tests\api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_store.test_get_order_by_id">
+  <component name="RunManager" selected="Python tests.Python tests in test_user.py">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_petstore.test_delete_pet_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_user.test_create_with_array" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,11 +152,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_petstore.test_delete_pet_by_id&quot;" />
+      <option name="_new_target" value="&quot;test_user.test_create_with_array&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_store.test_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_user.test_delete_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +168,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.test_add&quot;" />
+      <option name="_new_target" value="&quot;test_user.test_delete_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_store.test_delete" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_user.test_get_user_by_username" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,11 +184,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.test_delete&quot;" />
+      <option name="_new_target" value="&quot;test_user.test_get_user_by_username&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_store.test_get_order_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_user.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +200,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.test_get_order_by_id&quot;" />
+      <option name="_new_target" value="&quot;test_user.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_petstore.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_user.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,17 +216,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/api/test_petstore.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/api/test_user.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_store.test_get_order_by_id" />
-        <item itemvalue="Python tests.Python tests for test_store.test_add" />
-        <item itemvalue="Python tests.Python tests for test_store.test_delete" />
-        <item itemvalue="Python tests.Python tests in test_petstore.py" />
-        <item itemvalue="Python tests.Python tests for test_petstore.test_delete_pet_by_id" />
+        <item itemvalue="Python tests.Python tests in test_user.py" />
+        <item itemvalue="Python tests.Python tests for test_user.test_login" />
+        <item itemvalue="Python tests.Python tests for test_user.test_get_user_by_username" />
+        <item itemvalue="Python tests.Python tests for test_user.test_create_with_array" />
+        <item itemvalue="Python tests.Python tests for test_user.test_delete_user" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +286,7 @@
       <workItem from="1723499082904" duration="426000" />
       <workItem from="1723553048042" duration="6898000" />
       <workItem from="1723624975642" duration="3680000" />
-      <workItem from="1723729062415" duration="2722000" />
+      <workItem from="1723729062415" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -325,7 +328,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_invalid_login_form.coverage" NAME="pytest for test_main.test_invalid_login_form Coverage Results" MODIFIED="1722026139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723731787711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/api" />
+    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723733105765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/api" />
     <SUITE FILE_PATH="coverage/Alza_diplom$sql_lesson.coverage" NAME="sql_lesson Coverage Results" MODIFIED="1722882533648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_open_orders.coverage" NAME="pytest for test_main.test_open_orders Coverage Results" MODIFIED="1722025100291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Alza_diplom$apis.coverage" NAME="apis Coverage Results" MODIFIED="1722784586792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

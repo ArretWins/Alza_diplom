@@ -2269,3 +2269,81 @@
 2024-08-14 11:39:19,523 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
 2024-08-14 11:39:19,523 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
 2024-08-14 11:39:19,523 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-15 16:45:52,619 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Martin","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:53,643 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:53,643 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:54,561 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:54,561 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:54,561 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-15 16:45:55,691 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:55,691 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:55,691 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:55,691 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:56,611 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:56,611 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:56,611 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:56,611 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:56,611 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:57,634 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:58,352 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:45:59,374 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:00,606 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764778,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:01,629 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:02,859 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764785"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-15 16:46:03,881 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
