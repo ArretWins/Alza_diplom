@@ -26,10 +26,7 @@ def test_product_name(driver):
 @allure.feature('Product page')
 def test_comment_button(driver):
     main_page = MainPage(driver)
-    # main_page.to_product_page()
-    main_page.open()
-    main_page.close_privacy_window()
-    main_page.open_first_product()
+    main_page.to_product_page()
     product_page = ProductPage(driver)
     product_page.close_privacy_window()
     product_page.click_comment_button()

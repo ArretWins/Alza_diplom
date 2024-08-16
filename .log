@@ -7435,3 +7435,1569 @@
 2024-08-15 19:12:37,367 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
 2024-08-15 19:12:37,367 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
 2024-08-15 19:12:37,367 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:22,498 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Martin","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:23,139 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:23,139 - INFO - POST Request was successful: https://petstore.swagger.io/v2/pet -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:23,767 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:23,767 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:23,767 - INFO - GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2024-08-16 16:12:24,359 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:24,359 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:24,359 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:24,359 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:24,946 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:24,946 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:24,946 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:24,946 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:24,946 - INFO - POST Request was successful: https://petstore.swagger.io/v2/store/order -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:25,534 - INFO - GET Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"id":375,"petId":3751,"quantity":0,"shipDate":"2024-08-15T14:12:06.158+0000","status":"placed","complete":true}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,132 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/store/order/375 -- {"code":200,"type":"unknown","message":"375"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:26,712 - INFO - POST Request was successful: https://petstore.swagger.io/v2/user/createWithArray -- {"code":200,"type":"unknown","message":"ok"}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,299 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764556,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:27,885 - INFO - GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723817550572"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:28,482 - INFO - PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764560"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,076 - INFO - DELETE Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"ioioioio"}
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:29,081 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:30,417 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:47,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:12:48,180 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:05,120 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,018 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:06,390 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:24,924 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:25,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:26,153 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,013 - INFO - ====== WebDriver manager ======
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:47,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:13:48,225 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,067 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:13,319 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:31,820 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:32,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:33,054 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:49,649 - INFO - ====== WebDriver manager ======
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,544 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:14:50,855 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:13,943 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:14,813 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,010 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:15,154 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:39,859 - INFO - ====== WebDriver manager ======
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:40,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:15:41,104 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:04,396 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:05,753 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:30,750 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:31,982 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:16:59,131 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,172 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:00,315 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:26,850 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:27,895 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:28,037 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:42,731 - INFO - ====== WebDriver manager ======
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:43,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:17:44,042 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,085 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:03,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:04,269 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:18,118 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,196 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:19,340 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:33,336 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:34,534 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:48,101 - INFO - ====== WebDriver manager ======
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,001 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:18:49,258 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:10,667 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,570 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,747 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:11,889 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:23,225 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:24,378 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:37,363 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,256 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,407 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:38,550 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:51,146 - INFO - ====== WebDriver manager ======
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,032 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,245 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:19:52,373 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:04,721 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,851 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:05,988 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:19,759 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,637 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,775 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:20,910 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:36,398 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,284 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,433 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:37,562 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:54,206 - INFO - ====== WebDriver manager ======
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:20:55,414 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:10,866 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:11,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:12,027 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:27,706 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,835 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:28,999 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:46,871 - INFO - ====== WebDriver manager ======
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,741 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:47,956 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:21:48,089 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:27,445 - INFO - ====== WebDriver manager ======
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,344 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,535 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-16 16:22:28,669 - INFO - Driver [C:\Users\artyo\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache

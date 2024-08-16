@@ -7,125 +7,128 @@
     <list default="true" id="d1f9e395-a30f-451a-a0dd-c79d78c73442" name="Changes" comment="switch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/018b4cc6-db9c-4679-a23c-87945458809c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/01de64eb-7206-4d2b-a897-8a5af61988ac-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/02612f1c-a8fb-4570-8854-8537e0dd0782-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/094d445e-2815-4cb3-88f3-f367c73f88cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0a17126c-1f31-40b0-abd1-031d74696ae1-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0d64a978-ba70-439f-94cc-d21a4ea9f9e3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0fd0168a-657e-49cf-a08a-decf1d4f305f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/11cd2367-5ed7-44e4-9ea0-3c1f738d1377-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/17c425aa-7b5e-4759-a2cf-53a9724cf4b4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/1a1b28d1-5e1c-4a6b-be17-b61f6e691eb5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/202675d1-e16a-417f-b322-884d8eccb0c0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/232bd6bb-3dca-4fb8-8262-22d5d9c372d4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/277c914d-fa97-40b1-85f1-3e4ee9c308a7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/280c1a47-acfe-42f3-9cf1-5a0cb45cb5f6-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2835aeed-cd5c-4134-ade3-feedcf4f5dd1-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2f0ede71-3609-411a-95dc-66b39f229eb6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2f9c674e-40c5-486d-b64f-1f6dbd6d5fb9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/30bb8b8f-2d86-4ec0-9dcf-f21453196eeb-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/31802cce-1dc4-4bcc-b9f4-57cbf8ce0919-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/32bfd17c-c739-44c3-ba6a-953074cff53f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/33a724d8-33f3-4abe-b8a0-e76a49c0dcab-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/39beeebb-96cb-4393-a57d-9343ae2b82cb-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/3dc0e161-369b-47a7-8061-2a7ecf8d269f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/3f84b2a9-68f2-43e1-adce-74dee05dec7a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/41918148-ddce-4af6-9ef5-b5e1acb8f8bf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/41b88530-7557-4f49-b066-c6523ab3c2a5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/429c1bfb-e05e-4723-b1f8-255af5961529-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/449dcf11-c580-4229-8a98-553a22c2ce4e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/45fca3e1-4f77-4c98-8036-65cfb7e80d23-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/484eba7e-80e9-4376-9fae-4bf3f7c540e2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/4bd8b539-325a-4eaa-9d4b-9b09b0a98dce-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/51e92771-6123-4efa-9a2b-f0e02c352126-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/5205e74e-98c9-4756-903a-923f3319e072-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/5241c9e6-d51f-4dad-a287-58ca6382686f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/528fc21c-d023-423c-bba9-af0c8d0c4211-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/52cf3a75-7ba0-4f69-982b-9223394aae48-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/52ee70b8-532a-4fd0-a405-a958d93b2f6d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/560edeae-f12c-4de3-ad37-884f7097b51f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/5c49af82-acd3-4764-a177-8ee7a2ce5ce9-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/5ea3cb2b-a4d6-40a4-b727-6ccee17dcc1f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/5fc1f821-0615-466e-af6e-63bf457008ed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/61340e64-70cb-4264-8c8b-afbc53ba2e3c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/61c66681-8a4f-4249-870e-7cd9ce94580e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/62faecf5-e8cf-4a7d-a7a4-bba6088718e6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/6459f2be-8b1e-48be-ae5b-1152143e306c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/67da7720-16bc-4b0c-b2d3-6077c511bd65-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/6ad82aaa-6a41-43ad-bbcd-67d6c026610d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/6c1b1ee3-c110-407e-b2da-e60cb8edb8c1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/701e1abc-0467-41ed-a9f5-e2e8d89796c4-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/71cc46e4-fc25-4e2c-9397-c225af41419a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/74044581-e70a-4776-b878-1ee69aa47a75-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7771d47f-6ae6-451a-8e07-1ae0ad89e437-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7916c8f6-78e8-4e58-a904-204e035ac1fd-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7b3ca337-7b74-44b3-b311-4be475264135-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7c2b010d-5e50-4319-bcab-2f4652699985-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7f81c79c-b6dd-4f5d-99e7-d19bef252318-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/88547e3b-bf86-4887-af03-d58b1db778c9-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/8bbe32a8-2fd0-48f2-bc14-89a0f2dae1c9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/8e1b1a19-c5c9-4717-a732-7988b6a52b61-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/90956fb6-7ef1-4b3b-8075-008449802a53-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/95edcf2c-2686-4cdb-878b-5014454711aa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9a2b5a24-752c-47b8-90ef-2989f11fd8b9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9af90fa3-19ff-4df7-bf5b-213fe177a619-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9b902c08-1821-4edd-b7bc-f71e1e1ffcfb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9bbe49a5-2d68-45cf-bae8-0ac18597cd8f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9dafd7a3-fa82-4f9d-9bce-af4b2f526607-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a002e6a8-6988-46ea-b375-18d079a575a0-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a03fe5aa-aab3-43eb-9a60-e36290c2e37e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a5cbe2a1-8d2b-4266-93bf-d660ef5cb89b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a5d71d0c-84e5-4cfc-bf56-110e321bc509-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/af549672-ca75-48c6-9716-a557e9d7a965-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/af92d575-4ab1-4e8c-98f3-321b1aeff685-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b145da48-93a7-4cc4-8e18-0569cfe6e78c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b21b669b-225f-4399-9d5a-bb75925e337e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b2a11728-4a95-43c7-adb6-7813f6b10dbc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b2cb84c6-d506-41ea-8255-5dbb731e77a7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b483f014-1d81-4ba7-9977-6cf23365dc15-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b7d72d85-6e6e-495c-b6f2-dc102f127e22-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b858664d-017e-4411-a962-ed14fa7f52a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b9224d13-2ac8-4fe2-9c91-6f2692c0e095-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ba30ffb3-fce3-4d67-8874-6ba4feb89728-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/badb2f63-a8fe-433f-b900-52a5663d4530-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/baf70e5b-2ca1-4f60-bd15-e8235358e166-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/bd9a1169-0625-4151-bfcc-cf94fb5158ee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c9385eae-3c97-45b1-ae63-74dc57c58162-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/cf5ee0d1-8b55-47d2-9d31-63aea5cc6fc4-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/cfa6f2f9-ee72-4452-bf49-6c24d97d3108-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d00f8cc3-c7d3-4b72-a2e4-d7bea65cff86-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d04a4ff4-3314-422f-a6e4-a4cc89a4a8c6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d3e70740-0729-450b-9ee1-df9fdd0ef013-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d8d174f5-8883-4c7a-b116-7fdfbfac0171-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d91fe384-5b3f-4f73-8be6-7d63a024f7eb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/dbdf6776-25f8-4f16-b2df-ce6532221f5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/dbfd6a88-f7c4-4e7c-98ec-e76f42d90b36-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/dc8a3083-61d8-4bf8-a72e-f845db728176-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e0193ac0-1a1f-4bad-a501-6af068c9d7f3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e81d3ed0-6e56-4eef-a59f-a40d4a912c70-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e9141732-017b-4389-8e8a-ff003dedd7f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e91c63b5-3d09-4c55-bc82-c22c30cbfd7f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/eb2f3c4d-9b81-4607-b68d-af3ab4ca300c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ed62873e-36e2-44fe-8211-4e13870202e5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/eea5b89f-677f-430a-9da8-7827ed9dd869-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f084ad79-5469-4b5d-b0e0-6f638dde1b65-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f0c96fa0-e05a-40d8-9925-2e9c847445e5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f14e4573-aabc-4a37-a22e-dbb471fc155f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f4f70dc1-f8c9-4d14-8fe1-f6c1024a4bd5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/fb020570-fe36-431b-bc53-d7261cfdd3d5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/fbde2bcf-f4d5-4ca3-9033-35af6c069665-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/basket_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/basket_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/delivery_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/delivery_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/main_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/main_page_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/product_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/product_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/basket_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/delivery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/delivery_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_basket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_delivery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_delivery_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/01a4604f-ae44-40c3-976b-c55c7a1018cd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0396bbd1-716c-4c2a-ae91-1b7b1e240a73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/05b5fbfb-b12b-4711-a782-d1deac6f2e65-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/08261455-ddf7-4bcd-8786-55924327219c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/095b092f-3140-4205-95bd-9105d599123d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0c1f89bd-0cd6-48b7-b1f1-d0311af5f6d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/0f61ea65-7cad-423d-b0ce-8dbb6b3705e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/15e0633c-1038-4577-ac8b-c6dde2c3a2ec-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/195b0f4b-d12f-41ae-aa87-1c793622de42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/1a6ff435-928d-4871-af81-88e3640d9016-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/1ae998e7-fb91-415e-9cc8-2e1f1d16d7a5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/1b166b5f-d846-4fe7-afb6-a2b0eb9e485c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/1b25474d-9972-4f3d-ae1a-85644d3b9f91-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2007d8ba-e037-45fe-8ae9-489f78008253-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2230c31c-56b1-4471-8a06-4922f3e8fc40-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/225621da-87c1-4a2a-a1dc-729ac8b721c0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/23ca3bef-bfe3-4e8b-b440-e5b5a213e22e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2a349738-a4f0-4a4e-ac1f-6562be8073ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2bbdad33-dc6d-42e9-8f08-4f2b5619e43d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2dfb475e-8d45-499e-8cd0-5012f4004066-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2e94819f-c36d-42d1-a589-cef674c38982-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/2f01cc5e-18e6-4fbe-bb6a-02bb480edde8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/347f83cb-e50e-44ff-9052-442ac63730de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/355bd785-cd06-427e-b8c9-ca48e8d55b35-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/36886ca5-920e-4176-8a62-e9dff265c4f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/36ca6d5f-2b64-4098-b0ad-c706cb4469b1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/36fef867-46e2-4b54-ad36-685df3f1c38a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/3b8b081e-fe31-4fed-b1cc-19c5dcc3aac9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/3da01af4-3457-4ed5-92f7-13be3c6cb849-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/40439ceb-4682-45e5-85da-b066045576ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/42f8f157-3c43-47cc-b585-ed4811614a32-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/43e0bb3b-30f8-4f23-bdfb-c98c76cecb11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/45526810-8aef-4c0b-b062-ddef1ab1b0a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/45719460-e0cd-4f35-afea-c53ea8244847-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/4631845f-3eaf-4db1-ac0c-c2b7e9191e62-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/48a2b1b0-bed7-4243-a36a-b0fdf5777011-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/4ab391e3-c061-4ab8-902a-773598d1e2aa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/53872df5-3e90-45fb-92e5-0bcb8560fab9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/552475ed-9f38-4a03-ad91-3071bce1e62f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/57b34292-b8cd-4328-b12d-1f51084a761a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/60643c69-b1a5-4f9e-b430-b9ed69059576-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/624c7de5-b22b-4dd0-8ee6-d4b3afc312fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/6398751c-50aa-495f-a8e0-eb106dc78a07-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/64d4cd09-8e74-487e-8fdd-fca1bc3dad7b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/65751bc3-7267-48e4-b2de-8b2199f06592-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/65c007b7-2a79-4be3-b4c9-38101a441cc1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/688a889d-3423-4b44-ab49-9a0b9509cfd3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/69157987-8465-49f6-9d64-180ef850f474-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/6fecb21a-222b-41d4-b67e-14180814c2de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/71e084ae-28bb-49e1-b5ad-47faf9bc52ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/74b65bce-3831-49b7-ae46-bf16b09f04ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/78346acf-6436-43f6-a495-68d14ee033dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/78b7890a-0c30-4753-ba71-2e80fb4dd829-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/796cf961-0144-4718-8001-293322518445-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/79999887-a3b0-4927-8ddd-e553c5d063ab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/7d9e4bfc-3625-4539-9510-a6f1615ff088-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/80e9cf4e-59d9-4da4-87e1-99a2c38e17c4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/812373f6-2dc0-4a31-9511-003495850194-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/85356fa4-ca69-4c4c-8590-b1f837d6f1d0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/881e8dec-06b1-4601-aea1-eab32ca05dd5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/89397776-f650-45b5-8410-5b552fd44c10-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/8a913eb7-6ffc-4cbf-8f08-ced40e044dea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/8b4e3e35-9039-4c94-b817-c1c9bc52db53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9580e97d-32ab-4ec2-94ca-165a77eac2cc-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9a26aec4-26a4-49d8-8a2b-e5b9f5eb3319-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9a6c3f61-4eab-48bb-8371-d34ec9f5bbf2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9ad95ca1-a7a0-4a2f-b1c5-aeff11250ee9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9ae2d6ff-5e5d-4adc-b462-0867c6c4933f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9b705d94-a493-40a0-bb49-39f55db7a575-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9bfe5836-1abd-47f2-9810-e3c17f2ed5bb-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9c427c5f-41de-4f18-a3b2-076a5a6ba07e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9ceedd20-010a-49f3-8caa-359536e0fc9a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/9ebefccf-4f0c-44e8-8217-45778322532e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a199f1c6-6574-4271-a588-219a1dd6437b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a21c6071-a329-4931-931f-1b0911d2b4c3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a25a2e5b-24a2-4352-adff-c13d33543372-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a41791df-81b8-4500-95d2-3b741a252f4b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a66476b2-c226-4406-81c2-69d510b9a326-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/a6acd61c-423b-471a-95ad-2a71acc1c438-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ab555582-da2a-4d8a-a35e-314d14bf6d0c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b022c599-93e6-427d-9a55-d49186fbef46-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b677da2e-2cc9-4995-af2f-d547eea7af90-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b6e677ba-a664-47ab-80b7-714ad32866ee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b802930b-195b-4234-8520-f57c82c206c3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/b89866ed-57e1-47d5-a8d1-1c8ea80069c1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/bacd952e-661a-498e-96e6-b769825cdc47-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/bb7302d6-c6e2-4b06-a315-3d975b7c50f8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/bea29bf8-b525-48ef-9ca6-bc220a8f0f7d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c2ff4855-03f2-4a67-8e4c-83d53b89108e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c3f11b08-783d-4db4-95ab-337ed16703ac-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c4848580-b31c-45d1-8872-48ba50c13109-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c5a9b992-408b-4fff-a086-1a3090bc7fdf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c5c5cddf-b6c6-48ae-bc83-ec5788fe3744-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c866a49f-93f9-4b9a-a592-bbdd91158820-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/c92b9a94-d670-415c-b59a-9d72201239cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/cca75d8e-07cb-446c-8f23-57769f581a75-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ccbd4614-2d4b-4231-8809-f1d4ad450eb4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ce9bcf27-b050-4ee4-b7dc-858eb880b8a2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d173ee58-f3f3-4663-b91e-3f1c8df868b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d372ad46-0ab1-44c7-85e7-aca8de726194-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d657d300-b60c-490a-837f-e7c55005c583-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d6676501-06d9-4efd-8d51-bd0cca10b105-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/d98ed5d8-45a4-4ff3-9faa-5a9d758c10e7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/dba4f894-246f-434a-9bd3-dc272ca71de3-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/dea9f41f-78b7-421a-92c5-071b731f4e83-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e083a4a7-0b19-4ea6-8aa7-b051aee48ccf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e0c8d449-5314-4361-859f-b3d0ceab2474-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e2f3a2f1-3ba8-4bea-89df-ab4a5ebd3cca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e31d131d-5d67-4870-933a-7285b7d69d32-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e6116f71-cbd8-4ab9-9e60-78922b1a89fd-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e666b99e-60ed-4163-80df-af709a0965c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e78b888f-b1da-4587-9246-9d4b0686fc92-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/e9856cf2-6023-4774-abe6-69d543f7fc9d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ea2e21d6-a413-48c2-b1f9-2d7a384df4ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/eaeafe6f-2606-474c-a2e8-d92e50dd921e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f00b7748-e373-4aab-be1b-07a3c9228078-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f1adb041-c2c6-4c46-ad5c-4ff713ff1e75-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f40fb157-adff-4e42-9f5d-8c777e2a75c5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f4f14f3e-0fb2-4ad4-ab58-087c6c411e1c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/f8e61f8b-d6e4-4eec-814e-544d0f1063ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/fdc11bc6-b780-4cf2-8337-2c5703825540-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_all/ff73341a-50ed-4653-8486-a5ea21406c35-attachment.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,76 +173,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for apis.test_create_object.executor": "Run",
-    "Python tests.Python tests for apis.test_get_object.executor": "Run",
-    "Python tests.Python tests for main.test_example.executor": "Run",
-    "Python tests.Python tests for main.test_example2.executor": "Run",
-    "Python tests.Python tests for main.test_example3.executor": "Run",
-    "Python tests.Python tests for test_basket.test_basket.executor": "Run",
-    "Python tests.Python tests for test_basket.test_cancel_of_delete_product.executor": "Run",
-    "Python tests.Python tests for test_basket.test_delete_product.executor": "Run",
-    "Python tests.Python tests for test_basket.test_disabled_plus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_minus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_plus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_price.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_alzabox.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_delivery_to_address.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_markets.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_markets_and_boxes.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_showroom.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_that_delivery_page_is_opened.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_correct_login.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_invalid_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_miss_email_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_miss_password_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_social_buttons.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_work_of_social_buttons.executor": "Run",
-    "Python tests.Python tests for test_main.test_basket.executor": "Run",
-    "Python tests.Python tests for test_main.test_change_language.executor": "Run",
-    "Python tests.Python tests for test_main.test_context_menu.executor": "Run",
-    "Python tests.Python tests for test_main.test_login.executor": "Run",
-    "Python tests.Python tests for test_main.test_miss_email_login_form.executor": "Run",
-    "Python tests.Python tests for test_main.test_miss_password_login_form.executor": "Run",
-    "Python tests.Python tests for test_main.test_open_website.executor": "Run",
-    "Python tests.Python tests for test_main.test_that_language_is_changed.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_add_pet.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_delete_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_get_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_update_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_product.test_buy_button.executor": "Run",
-    "Python tests.Python tests for test_product.test_comment_button.executor": "Run",
-    "Python tests.Python tests for test_product.test_delivery_search.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_name.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_page.executor": "Run",
-    "Python tests.Python tests for test_store.test_add.executor": "Run",
-    "Python tests.Python tests for test_store.test_delete.executor": "Run",
-    "Python tests.Python tests for test_store.test_get_order_by_id.executor": "Run",
-    "Python tests.Python tests for test_user.test_create_with_array.executor": "Run",
-    "Python tests.Python tests for test_user.test_delete_user.executor": "Run",
-    "Python tests.Python tests for test_user.test_get_user_by_username.executor": "Run",
-    "Python tests.Python tests for test_user.test_login.executor": "Run",
-    "Python tests.Python tests for test_user.test_update_user.executor": "Run",
-    "Python tests.Python tests in test_petstore.py.executor": "Run",
-    "Python tests.Python tests in test_user.py.executor": "Run",
-    "Python tests.pytest for test_main.test_invalid_login_form.executor": "Run",
-    "Python tests.pytest for test_main.test_open_orders.executor": "Run",
-    "Python.apis.executor": "Run",
-    "Python.sql_lesson.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PycharmProjects/Alza_diplom/services",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for apis.test_create_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for apis.test_get_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_cancel_of_delete_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_delete_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_disabled_plus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_minus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_plus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_price.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_alzabox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_delivery_to_address.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_markets.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_markets_and_boxes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_showroom.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_that_delivery_page_is_opened.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_correct_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_invalid_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_miss_email_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_miss_password_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_social_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_work_of_social_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_change_language.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_context_menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_miss_email_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_miss_password_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_open_website.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_that_language_is_changed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_add_pet.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_delete_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_get_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_update_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_buy_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_comment_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_delivery_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_delete.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_get_order_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_create_with_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_delete_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_get_user_by_username.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_update_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_petstore.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_invalid_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_open_orders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_lesson.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/Alza_diplom/services&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\Alza_diplom\services" />
@@ -258,7 +261,7 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_basket.test_basket" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_product.test_buy_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,11 +273,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_basket.test_basket&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_buy_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_delivery_page.test_markets_and_boxes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_product.test_comment_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Alza_diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,23 +289,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_page.test_markets_and_boxes&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_delivery_page.test_showroom" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Alza_diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_page.test_showroom&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_comment_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -338,13 +325,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_product.test_product_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Alza_diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_product_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_product.test_delivery_search" />
-        <item itemvalue="Python tests.Python tests for test_basket.test_basket" />
+        <item itemvalue="Python tests.Python tests for test_product.test_buy_button" />
+        <item itemvalue="Python tests.Python tests for test_product.test_comment_button" />
         <item itemvalue="Python tests.Python tests for test_product.test_product_name" />
-        <item itemvalue="Python tests.Python tests for test_delivery_page.test_markets_and_boxes" />
-        <item itemvalue="Python tests.Python tests for test_delivery_page.test_showroom" />
+        <item itemvalue="Python tests.Python tests for test_product.test_product_page" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +407,8 @@
       <workItem from="1723499082904" duration="426000" />
       <workItem from="1723553048042" duration="6898000" />
       <workItem from="1723624975642" duration="3680000" />
-      <workItem from="1723729062415" duration="13137000" />
+      <workItem from="1723729062415" duration="13186000" />
+      <workItem from="1723817066355" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -446,7 +450,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_invalid_login_form.coverage" NAME="pytest for test_main.test_invalid_login_form Coverage Results" MODIFIED="1722026139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723742265283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Alza_diplom$.coverage" NAME=" Coverage Results" MODIFIED="1723817371545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Alza_diplom$sql_lesson.coverage" NAME="sql_lesson Coverage Results" MODIFIED="1722882533648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Alza_diplom$pytest_for_test_main_test_open_orders.coverage" NAME="pytest for test_main.test_open_orders Coverage Results" MODIFIED="1722025100291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Alza_diplom$apis.coverage" NAME="apis Coverage Results" MODIFIED="1722784586792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
