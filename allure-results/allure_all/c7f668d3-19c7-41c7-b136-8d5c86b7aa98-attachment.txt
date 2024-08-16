@@ -1,0 +1,1 @@
+[32mINFO    [0m root:base_service.py:52 GET Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"id":9223372036854764969,"username":"ioioioio","firstName":"Bill","lastName":"Wins","email":"aaa@aa.com","password":"12313","phone":"21313124","userStatus":0}
