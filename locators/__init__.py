@@ -6,3 +6,4 @@ from locators.order_locators import OrderLocators
 from locators.main_page_locators import MainLocators
 from locators.product_locators import ProductLocators
 from locators.delivery_locators import DeliveryLocators
+from locators.contact_locators import ContactLocators

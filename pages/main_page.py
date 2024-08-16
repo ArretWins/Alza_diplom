@@ -71,6 +71,11 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         time.sleep(1)
         # assert self.get_element(self.CONTEXT_MENU)
 
+    def go_to_contacts(self):
+        with allure.step('Go to contacts page'):
+            self.close_privacy_window()
+            self.click(self.CONTACT_TITLE)
+
     def go_to_laptops(self):
         with allure.step('Go to laptops page'):
             self.click(self.LAPTOPS)
