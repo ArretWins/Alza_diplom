@@ -6,7 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="d1f9e395-a30f-451a-a0dd-c79d78c73442" name="Changes" comment="switch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/05321a5b-edc6-4026-83cd-6d15dc92e221-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/05cc71af-feaf-4c9c-94b3-45177ab35b49-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/1286d811-4b26-4c5b-9512-38bf261ac658-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/1ddc99af-66b5-4fb3-ae41-c4780188202a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/23df1427-06f1-4c8d-82d6-5436948ef5c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/2ee0b9a7-8664-41ac-9610-9713f4603d1f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/594c4bab-1046-4553-b711-9c01271983c7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/5fde34b3-7d11-497b-a14e-91f26c63840e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/6fbaba0f-f4e6-4cfc-bef2-c3d49cb4d134-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/82d75167-3701-484f-85cf-a15f9e27f38a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/8b1102d1-ca03-4c1c-87a5-d8daf05340d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/8b5b5b7c-bdbc-44a4-968b-c93aa4e643f0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/90ae0a0a-39a4-44d0-af64-7a3f66c7401d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/930e5c25-f9f2-4e7f-b845-63bd2bb2d499-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/986c3415-34e9-430c-8893-1dbc0dde7bc8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/98e6c0f1-4691-4a28-81bc-4c8e6c100193-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/9c841116-c1a7-4548-953e-f284bc74f9ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/a39e86ae-7196-4e89-99a0-a1dafdb745d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/a59badbd-b767-4605-bd25-5ee3ba39f641-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/a5e7eeac-be37-429a-8ebc-3a679b033122-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/befaa571-7559-4a7c-b8b9-de08dfbec4ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/bf8cb795-49ca-4499-857f-abcc47a9d825-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/d530be9c-4515-4880-b719-9799f8f5bb45-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/e5b3a054-bd22-445b-8236-b948b24a64d6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/e81dd476-c858-453b-9713-f33ea5e59281-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/e857a34a-a7e9-4b18-af1e-51741dd058b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/ea92fd7d-c77b-435e-a2d5-3eb907898129-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/allure_api/eea44c5d-9338-4859-baf5-e0bf739ca013-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="API" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +81,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Makefile Target.test-all-firefox.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for apis.test_create_object.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for apis.test_get_object.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for main.test_example.executor&quot;: &quot;Run&quot;,
@@ -109,14 +138,14 @@
     &quot;Python.apis.executor&quot;: &quot;Run&quot;,
     &quot;Python.sql_lesson.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;makefile&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/Alza_diplom/services&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -131,7 +160,13 @@
       <recent name="D:\PycharmProjects\Alza_diplom\tests\api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_basket.test_disabled_plus_button">
+  <component name="RunManager" selected="Makefile Target.test-all-firefox">
+    <configuration name="test-all-firefox" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test-all-firefox" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
@@ -202,29 +237,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_product_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Alza_diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_product_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.test-all-firefox" />
         <item itemvalue="Python tests.Python tests for test_basket.test_disabled_plus_button" />
         <item itemvalue="Python tests.Python tests for test_product.test_delivery_search" />
         <item itemvalue="Python tests.Python tests for test_product.test_buy_button" />
         <item itemvalue="Python tests.Python tests for test_product.test_comment_button" />
-        <item itemvalue="Python tests.Python tests for test_product.test_product_name" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +304,9 @@
       <workItem from="1723553048042" duration="6898000" />
       <workItem from="1723624975642" duration="3680000" />
       <workItem from="1723729062415" duration="13186000" />
-      <workItem from="1723817066355" duration="3872000" />
+      <workItem from="1723817066355" duration="6039000" />
+      <workItem from="1723824224161" duration="189000" />
+      <workItem from="1723824431181" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
