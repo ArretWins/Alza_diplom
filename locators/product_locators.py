@@ -24,3 +24,15 @@ class ProductLocators:
     FORWARD_BUTTON = (By.XPATH, '//a[@id="varBToBasketButton"]')
 
     CROSS_SELL_MESSAGE = (By.XPATH, '//a[@class="productInfo__texts__message"]')
+    COMPARE_ITEMS = (By.XPATH, '//a[@class="compare"]')
+    SUCCESS_COMPARE_ITEMS = (By.XPATH, '//div[@class="alzaDialogBody"]')
+
+    ALL_PHOTOS = (By.XPATH, '//a[@id="tabFoto"]')
+    PHOTO_LAB = (By.XPATH, '//a[@rel="fotoTab"]')
+    FANCY_BOX = (By.XPATH, '//div[contains(@class, "fancybox-opened")]')
+
+    DISCUSSION_POSTS = (By.XPATH, '//a[@id="hlTabDiscussionPosts"]')
+    DISCUSSION_INPUT = (By.XPATH, '//input[@class="textbox discussion-filter__search-input"]')
+    ANSWER_SPAN = (By.XPATH, '//span[@class="reactionsCountSuffix"]')
+    EXPERT_IMAGE = (By.XPATH, '//img[@class="authorImage vendorExpert"]')
+

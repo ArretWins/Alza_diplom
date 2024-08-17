@@ -13,8 +13,6 @@ def test_contact_page(driver):
 
     main_page.go_to_contacts()
     contact_page = ContactPage(driver)
-    # contact_page.click_product()
-    # time.sleep(2)
     contact_page.assert_that_contact_page_is_opened()
 
 

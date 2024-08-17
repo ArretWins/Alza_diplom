@@ -51,7 +51,48 @@ def test_delivery_search(driver):
     product_page = ProductPage(driver)
     product_page.click_to_delivery()
     product_page.search_address()
-    time.sleep(2)
     product_page.choose_address()
-    time.sleep(2)
     product_page.assert_that_delivery_search_works()
+
+
+@allure.feature('Product page')
+def test_compare_items(driver):
+    main_page = MainPage(driver)
+    main_page.to_product_page()
+
+    product_page = ProductPage(driver)
+    product_page.click_to_compare()
+    product_page.assert_compare_message()
+
+
+@allure.feature('Product page')
+def test_photos(driver):
+    main_page = MainPage(driver)
+    main_page.to_product_page()
+
+    product_page = ProductPage(driver)
+    product_page.click_photos()
+    product_page.open_photos()
+    product_page.assert_that_photos_are_opened()
+
+
+@allure.feature('Product page')
+def test_discussions(driver):
+    main_page = MainPage(driver)
+    main_page.to_product_page()
+
+    product_page = ProductPage(driver)
+    product_page.click_discussions()
+    product_page.assert_that_discussions_are_opened()
+
+
+@allure.feature('Product page')
+def test_answers(driver):
+    main_page = MainPage(driver)
+    main_page.to_product_page()
+
+    product_page = ProductPage(driver)
+    product_page.click_discussions()
+    product_page.fill_discussions_input()
+    product_page.click_to_answer()
+    product_page.assert_that_answer_is_opened()
