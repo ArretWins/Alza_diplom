@@ -31,3 +31,16 @@ def test_answer(driver):
     contact_page.click_post()
     contact_page.assert_answer()
 
+
+@allure.feature('Contact page')
+def test_alza_plus(driver):
+    main_page = MainPage(driver)
+    main_page.open()
+    main_page.assert_that_mainpage_is_opened()
+    main_page.go_to_contacts()
+    contact_page = ContactPage(driver)
+    contact_page.click_service()
+    contact_page.click_alza_plus()
+    contact_page.click_alza_list()
+    contact_page.click_alza_href()
+    contact_page.assert_that_alza_plus_page_is_opened()

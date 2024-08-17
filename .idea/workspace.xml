@@ -52,79 +52,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Makefile Target.test-all-firefox.executor": "Run",
-    "Python tests.Python tests for apis.test_create_object.executor": "Run",
-    "Python tests.Python tests for apis.test_get_object.executor": "Run",
-    "Python tests.Python tests for main.test_example.executor": "Run",
-    "Python tests.Python tests for main.test_example2.executor": "Run",
-    "Python tests.Python tests for main.test_example3.executor": "Run",
-    "Python tests.Python tests for test_basket.test_basket.executor": "Run",
-    "Python tests.Python tests for test_basket.test_cancel_of_delete_product.executor": "Run",
-    "Python tests.Python tests for test_basket.test_delete_product.executor": "Run",
-    "Python tests.Python tests for test_basket.test_disabled_plus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_minus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_plus_button.executor": "Run",
-    "Python tests.Python tests for test_basket.test_price.executor": "Run",
-    "Python tests.Python tests for test_contact_page.test_answer.executor": "Run",
-    "Python tests.Python tests for test_contact_page.test_invalid_login_form.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_alzabox.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_delivery_to_address.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_markets.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_markets_and_boxes.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_showroom.executor": "Run",
-    "Python tests.Python tests for test_delivery_page.test_that_delivery_page_is_opened.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_correct_login.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_invalid_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_miss_email_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_miss_password_login_form.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_social_buttons.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_work_of_social_buttons.executor": "Run",
-    "Python tests.Python tests for test_main.test_basket.executor": "Run",
-    "Python tests.Python tests for test_main.test_change_language.executor": "Run",
-    "Python tests.Python tests for test_main.test_context_menu.executor": "Run",
-    "Python tests.Python tests for test_main.test_login.executor": "Run",
-    "Python tests.Python tests for test_main.test_miss_email_login_form.executor": "Run",
-    "Python tests.Python tests for test_main.test_miss_password_login_form.executor": "Run",
-    "Python tests.Python tests for test_main.test_open_website.executor": "Run",
-    "Python tests.Python tests for test_main.test_that_language_is_changed.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_add_pet.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_delete_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_get_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_petstore.test_update_pet_by_id.executor": "Run",
-    "Python tests.Python tests for test_product.test_buy_button.executor": "Run",
-    "Python tests.Python tests for test_product.test_comment_button.executor": "Run",
-    "Python tests.Python tests for test_product.test_delivery_search.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_name.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_page.executor": "Run",
-    "Python tests.Python tests for test_store.test_add.executor": "Run",
-    "Python tests.Python tests for test_store.test_delete.executor": "Run",
-    "Python tests.Python tests for test_store.test_get_order_by_id.executor": "Run",
-    "Python tests.Python tests for test_user.test_create_with_array.executor": "Run",
-    "Python tests.Python tests for test_user.test_delete_user.executor": "Run",
-    "Python tests.Python tests for test_user.test_get_user_by_username.executor": "Run",
-    "Python tests.Python tests for test_user.test_login.executor": "Run",
-    "Python tests.Python tests for test_user.test_update_user.executor": "Run",
-    "Python tests.Python tests in test_petstore.py.executor": "Run",
-    "Python tests.Python tests in test_user.py.executor": "Run",
-    "Python tests.pytest for test_main.test_invalid_login_form.executor": "Run",
-    "Python tests.pytest for test_main.test_open_orders.executor": "Run",
-    "Python.apis.executor": "Run",
-    "Python.sql_lesson.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PycharmProjects/Alza_diplom/tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Makefile Target.test-all-firefox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for apis.test_create_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for apis.test_get_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for main.test_example3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_cancel_of_delete_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_delete_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_disabled_plus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_minus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_plus_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basket.test_price.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_contact_page.test_answer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_contact_page.test_invalid_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_alzabox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_delivery_to_address.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_markets.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_markets_and_boxes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_showroom.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delivery_page.test_that_delivery_page_is_opened.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_correct_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_invalid_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_miss_email_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_miss_password_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_social_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_work_of_social_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_change_language.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_context_menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_miss_email_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_miss_password_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_open_website.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_that_language_is_changed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_add_pet.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_delete_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_get_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_petstore.test_update_pet_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_buy_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_comment_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_delivery_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_delete.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_store.test_get_order_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_create_with_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_delete_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_get_user_by_username.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_update_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_petstore.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_invalid_login_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_open_orders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_lesson.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/Alza_diplom/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\Alza_diplom\tests" />
@@ -137,11 +137,27 @@
       <recent name="D:\PycharmProjects\Alza_diplom\tests\api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_contact_page.test_answer">
+  <component name="RunManager" selected="Python tests.Python tests for test_contact_page.test_alza_plus">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
       </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_contact_page.test_alza_plus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Alza_diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact_page.test_alza_plus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_contact_page.test_answer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -173,22 +189,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_contact_page.test_invalid_login_form&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_product.test_comment_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Alza_diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_comment_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -226,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_contact_page.test_alza_plus" />
         <item itemvalue="Python tests.Python tests for test_contact_page.test_answer" />
         <item itemvalue="Python tests.Python tests for test_contact_page.test_invalid_login_form" />
         <item itemvalue="Python tests.Python tests for test_product.test_product_name" />
         <item itemvalue="Python tests.Python tests for test_product.test_delivery_search" />
-        <item itemvalue="Python tests.Python tests for test_product.test_comment_button" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +294,9 @@
       <workItem from="1723817066355" duration="6039000" />
       <workItem from="1723824224161" duration="189000" />
       <workItem from="1723824431181" duration="135000" />
-      <workItem from="1723825257464" duration="2922000" />
+      <workItem from="1723825257464" duration="2967000" />
+      <workItem from="1723841668014" duration="200000" />
+      <workItem from="1723887468179" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

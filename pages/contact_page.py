@@ -37,6 +37,18 @@ class ContactPage(BasePage, ContactLocators):
         with allure.step('Click post button'):
             self.click(self.POST_CONTAINER)
 
+    def click_alza_plus(self):
+        with allure.step('Click alza plus span'):
+            self.click(self.ALZA_PLUS)
+
+    def click_alza_list(self):
+        with allure.step('Click alza plus list'):
+            self.click(self.ALZA_PLUS_LIST)
+
+    def click_alza_href(self):
+        with allure.step('Click alza plus href'):
+            self.click(self.ALZA_PLUS_HREF)
+
     def search_input(self):
         with allure.step('Search product'):
             self.fill(self.PRODUCT_INPUT, "Macbook")
@@ -58,3 +70,7 @@ class ContactPage(BasePage, ContactLocators):
     def assert_answer(self):
         with allure.step('Assert answer'):
             assert self.get_element(self.ANSWER)
+
+    def assert_that_alza_plus_page_is_opened(self):
+        with allure.step("Assert that alza+ page is opened"):
+            assert self.get_element(self.ALZA_PLUS_PAGE)
