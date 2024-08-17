@@ -7,6 +7,7 @@ DELIVERY=allure_delivery
 LOGIN=allure_login
 MAIN=allure_main
 PRODUCT=allure_product
+CONTACT=allure_contact
 
 API_FILES = tests/api
 BASKET_FILES = tests/test_basket.py
@@ -14,6 +15,7 @@ DELIVERY_FILES = tests/test_delivery_page.py
 LOGIN_FILES = tests/test_login_page.py
 MAIN_FILES = tests/test_main.py
 PRODUCT_FILES = tests/test_product.py
+CONTACT_FILES = tests/test_contact_page.py
 
 test-all:
 	$(PYTEST) --alluredir $(ALLURE_DIR)$(ALL)
@@ -39,6 +41,9 @@ test-main:
 test-product:
 	$(PYTEST) --alluredir $(ALLURE_DIR)$(PRODUCT) $(PRODUCT_FILES)
 
+test-contact:
+	$(PYTEST) --alluredir $(ALLURE_DIR)$(CONTACT) $(CONTACT_FILES)
+
 test-api-firefox:
 	$(PYTEST) --firefox --alluredir $(ALLURE_DIR)$(API) $(API_FILES)
 
@@ -56,6 +61,9 @@ test-main-firefox:
 
 test-product-firefox:
 	$(PYTEST) --firefox --alluredir $(ALLURE_DIR)$(PRODUCT) $(PRODUCT_FILES)
+
+test-contact-firefox:
+	$(PYTEST) --firefox --alluredir $(ALLURE_DIR)$(CONTACT) $(CONTACT_FILES)
 
 report-all:
 	allure serve $(ALLURE_DIR)$(ALL)
