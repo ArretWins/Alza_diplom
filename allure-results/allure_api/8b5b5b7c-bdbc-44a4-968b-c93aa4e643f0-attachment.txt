@@ -1,1 +1,0 @@
-[32mINFO    [0m root:base_service.py:52 GET Request was successful: https://petstore.swagger.io/v2/user/login?username=ioioioio&password=12313 -- {"code":200,"type":"unknown","message":"logged in user session:1723733163121"}
