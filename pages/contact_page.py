@@ -41,7 +41,6 @@ class ContactPage(BasePage, ContactLocators):
     def click_alza_plus(self):
         with allure.step('Click alza plus span'):
             self.click(self.ALZA_PLUS)
-            time.sleep(2)
 
     def click_alza_list(self):
         with allure.step('Click alza plus list'):

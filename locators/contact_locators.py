@@ -14,7 +14,7 @@ class ContactLocators:
     POST_CONTAINER = (By.XPATH, '//p[contains(text(), "schopny otvorit")]')
     ANSWER = (By.XPATH, '//p[contains(text(), "ho na tomto MacBooku")]')
 
-    ALZA_PLUS = (By.XPATH, '//span[contains(text(), "AlzaPlus+")]')
+    ALZA_PLUS = (By.XPATH, '//a[@class="item question ajax"]')
     ALZA_PLUS_LIST = (By.XPATH, '//font[contains(text(), "Ako získať")]')
     ALZA_PLUS_HREF = (By.XPATH, '//a[contains(text(), "tu")]')
     ALZA_PLUS_PAGE = (By.XPATH, '//h1[@itemprop="name"]')
