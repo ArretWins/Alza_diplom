@@ -3,6 +3,7 @@ import time
 from pages.base_page import BasePage
 from locators.contact_locators import ContactLocators
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 
 import allure
 
@@ -40,6 +41,7 @@ class ContactPage(BasePage, ContactLocators):
     def click_alza_plus(self):
         with allure.step('Click alza plus span'):
             self.click(self.ALZA_PLUS)
+            time.sleep(2)
 
     def click_alza_list(self):
         with allure.step('Click alza plus list'):
@@ -48,6 +50,11 @@ class ContactPage(BasePage, ContactLocators):
     def click_alza_href(self):
         with allure.step('Click alza plus href'):
             self.click(self.ALZA_PLUS_HREF)
+
+    def scroll(self):
+        with allure.step('Scroll'):
+            action = ActionChains(self.driver)
+            action.scroll_to_element(self.MESSAGE_AREA)
 
     def search_input(self):
         with allure.step('Search product'):

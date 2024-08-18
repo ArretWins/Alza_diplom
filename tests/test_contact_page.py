@@ -39,6 +39,7 @@ def test_alza_plus(driver):
     contact_page = ContactPage(driver)
     contact_page.click_service()
     contact_page.click_alza_plus()
+    contact_page.scroll()
     contact_page.click_alza_list()
     contact_page.click_alza_href()
     contact_page.assert_that_alza_plus_page_is_opened()

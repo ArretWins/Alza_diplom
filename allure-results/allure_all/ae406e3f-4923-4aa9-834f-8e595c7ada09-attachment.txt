@@ -1,1 +1,0 @@
-[32mINFO    [0m root:base_service.py:38 PUT Request was successful: https://petstore.swagger.io/v2/user/ioioioio -- {"code":200,"type":"unknown","message":"9223372036854764970"}
