@@ -1,17 +1,17 @@
+# Используем официальный Python-образ, оптимизированный по размеру
 FROM python:3-slim
 
+# Устанавливаем рабочую директорию
 WORKDIR /app
 
+# Копируем только requirements.txt перед установкой зависимостей
 COPY requirements.txt .
 
+# Устанавливаем зависимости с отключением кеширования для экономии места
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Устанавливаем зависимости для Allure и тестов (если есть)
 RUN pip install --no-cache-dir pytest allure-pytest
-
-RUN apt-get install -y openjdk-11-jre wget unzip \
-    && wget https://github.com/allure-framework/allure2/releases/download/2.21.0/allure-2.21.0.zip -O /tmp/allure.zip \
-    && unzip /tmp/allure.zip -d /opt/ \
-    && ln -s /opt/allure-2.21.0/bin/allure /usr/bin/allure
 
 COPY . .
 
@@ -26,6 +26,3 @@ CMD ["make", "test-main"]
 CMD ["make", "test-product"]
 CMD ["make", "test-contact"]
 CMD ["make", "clean-allure"]
-
-
-ENTRYPOINT ["allure", "serve", "/app/allure-results"]
