@@ -2,9 +2,8 @@
 
 This project is a test automation suite for the [alza.sk](https://www.alza.sk/) website, built using Python, Selenium, and pytest. The test results are generated using Allure. The project also includes Docker integration and API tests for [petstore.swagger.io](https://petstore.swagger.io/#/). The tests are structured using the Page Object Model (POM) design pattern.
 
-```markdown
-   ![Allure Test Results](screenshots/all_tests.png)
-```
+![Allure Test Results](screenshots/all_tests.png)
+
 
 ## Tested Pages
 
