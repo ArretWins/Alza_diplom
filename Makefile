@@ -88,3 +88,9 @@ report-product:
 
 clean-allure:
 	rm -rf allure-results/
+
+test-docker:
+	docker run --rm -v $(pwd)/allure-results:/app/allure-results myapp make test-all
+
+allure-docker:
+	docker run --rm -v $(pwd)/allure-results:/app/allure-results -p 8080:8080 myapp
