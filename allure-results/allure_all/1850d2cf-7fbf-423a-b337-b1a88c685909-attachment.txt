@@ -1,1 +1,0 @@
-[32mINFO    [0m root:base_service.py:52 GET Request was successful: https://petstore.swagger.io/v2/pet/375 -- {"id":375,"category":{"id":0,"name":"string"},"name":"Tommy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}

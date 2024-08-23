@@ -44,6 +44,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def buy_first_product(self):
         with allure.step('Buy first product'):
             self.open()
+            self.save_screenshot("1.png")
             # self.close_privacy_window()
             self.assert_item_to_basket()
 
