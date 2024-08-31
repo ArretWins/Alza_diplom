@@ -74,6 +74,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     @allure.step('Go to laptops page')
     def go_to_laptops(self):
         self.click(self.LAPTOPS)
+        self.click(self.LAPTOPS_SPAN)
 
     @allure.step('Take item to basket')
     def add_item_to_basket(self):

@@ -61,6 +61,12 @@ class BasketPage(BasePage, BasketLocators):
     @allure.step('Open delivery page')
     def open_delivery_page(self):
         self.click(self.CONTINUE_BUTTON)
+        if self.get_element(self.CLOSE_ITEMS_BUTTON):
+            self.close_added_items()
+
+    @allure.step('Close added items')
+    def close_added_items(self):
+        self.click(self.CLOSE_ITEMS_BUTTON)
 
     @allure.step('Assert that basket is open')
     def assert_that_basket_is_opened(self):

@@ -20,3 +20,4 @@ class BasketLocators:
     EMPTY_IMAGE = (By.XPATH, '//img[@class="emptyImage"]')
 
     CONTINUE_BUTTON = (By.XPATH, '//div[@id="blockBtnRight"]')
+    CLOSE_ITEMS_BUTTON = (By.XPATH, '//span[@class="btnx normal grey js-close-button close-button"]')

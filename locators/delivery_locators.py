@@ -19,7 +19,7 @@ class DeliveryLocators:
     DIALOG_BODY = (By.XPATH, '//div[@id="deliveryContainer--12-219130725"]')
     CLOSE_DIALOG_BUTTON = (By.XPATH, '//span[contains(@class,"close-button")]')
 
-    BRATISlAVA_MARKET = (By.XPATH, '//h4[contains(text(), "Nivy")]')
+    BRATISlAVA_MARKET = (By.XPATH, '//button[@class="order2Dialogs-alz-103 order2Dialogs-alz-94"]')
     TATRACENTRUM_MARKET = (By.XPATH, '//h4[contains(text(), "(Tatracentrum)")]')
     MARKET_CONFIRM = (By.XPATH, '//button[@data-testid="salesNetwork-pickupHere"]')
 

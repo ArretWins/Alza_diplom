@@ -2,8 +2,9 @@ from selenium.webdriver.common.by import By
 
 
 class MainLocators:
-    FIRST_ITEM_BUTTON = (By.XPATH, '//button[@data-testid="itemButton"][1]')
+    FIRST_ITEM_BUTTON = (By.XPATH, '//div[@class="btnkx-inner"]')
     LAPTOPS = (By.XPATH, '//a[contains(text(), "a notebooky")]')
+    LAPTOPS_SPAN = (By.XPATH, '//span[text()="Notebooky"]')
     # FIRST_ITEM_BUTTON = (By.XPATH, '//*[@id="ltp"]/div[2]/div/div/div[1]/'
     #                                'div/div/div/swiper-container/swiper-slide[3]/div/button')
     FIRST_ITEM_NAME = (By.XPATH, '//a[@class="carousel0-alz-34"][1]')
