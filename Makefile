@@ -9,7 +9,7 @@ MAIN=allure_main
 PRODUCT=allure_product
 CONTACT=allure_contact
 
-API_FILES = tests/api
+API_FILES = tests/test_api
 BASKET_FILES = tests/test_basket.py
 DELIVERY_FILES = tests/test_delivery_page.py
 LOGIN_FILES = tests/test_login_page.py
@@ -22,9 +22,6 @@ test-all:
 
 test-all-firefox:
 	$(PYTEST) --firefox --alluredir $(ALLURE_DIR)$(ALL)
-
-test-api:
-	$(PYTEST) --alluredir $(ALLURE_DIR)$(API) $(API_FILES)
 
 test-basket:
 	$(PYTEST) --alluredir $(ALLURE_DIR)$(BASKET) $(BASKET_FILES)

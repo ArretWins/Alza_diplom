@@ -9,7 +9,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.abspath(''))
 
 
 def pytest_addoption(parser):
@@ -20,11 +20,14 @@ def pytest_addoption(parser):
 
 @pytest.fixture
 def driver(request):
-    browser = "chrome"
     if request.config.getoption("--firefox"):
-        browser = "firefox"
-
-    if browser == "chrome":
+        options = FirefoxOptions()
+        gecko_install = GeckoDriverManager().install()
+        folder = os.path.dirname(gecko_install)
+        geckodriver_path = os.path.join(folder, "geckodriver.exe")
+        service = FirefoxService(geckodriver_path)
+        driver = webdriver.Firefox(service=service, options=options)
+    else:
         options = ChromeOptions()
         options.add_argument("--disable-search-engine-choice-screen")
         chrome_install = ChromeDriverManager().install()
@@ -32,13 +35,6 @@ def driver(request):
         chromedriver_path = os.path.join(folder, "chromedriver.exe")
         service = ChromeService(chromedriver_path)
         driver = webdriver.Chrome(service=service, options=options)
-    elif browser == "firefox":
-        options = FirefoxOptions()
-        gecko_install = GeckoDriverManager().install()
-        folder = os.path.dirname(gecko_install)
-        geckodriver_path = os.path.join(folder, "geckodriver.exe")
-        service = FirefoxService(geckodriver_path)
-        driver = webdriver.Firefox(service=service, options=options)
 
     driver.maximize_window()
     yield driver

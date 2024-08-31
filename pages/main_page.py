@@ -16,99 +16,93 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step('Open main page')
     def open(self):
-        with allure.step('Open main page'):
-            self.open_page(BASE_URL)
+        self.open_page(BASE_URL)
 
+    @allure.step('Close privacy window')
     def close_privacy_window(self):
-        with allure.step('Close privacy window'):
-            try:
-                self.click(self.PRIVACY_WINDOW)
-            except (NoSuchElementException, TimeoutException) as e:
-                print(f"Could not close privacy window: {e}")
-                assert False, f"Could not close privacy window: {e}"
+        try:
+            self.click(self.PRIVACY_WINDOW)
+        except (NoSuchElementException, TimeoutException) as e:
+            print(f"Could not close privacy window: {e}")
+            assert False, f"Could not close privacy window: {e}"
 
+    @allure.step('Open first product')
     def open_first_product(self):
-        with allure.step('Open first product'):
-            self.click(self.FIRST_PRODUCT)
+        self.click(self.FIRST_PRODUCT)
 
+    @allure.step('Open product page')
     def to_product_page(self):
-        with allure.step('Open product page'):
-            self.open()
-            self.go_to_laptops()
-            self.close_privacy_window()
-            name_from_main_page = self.get_name_of_first_product()
-            self.open_first_product()
-            return name_from_main_page
+        self.open()
+        self.go_to_laptops()
+        self.close_privacy_window()
+        name_from_main_page = self.get_name_of_first_product()
+        self.open_first_product()
+        return name_from_main_page
 
+    @allure.step('Buy first product')
     def buy_first_product(self):
-        with allure.step('Buy first product'):
-            self.open()
-            self.save_screenshot("1.png")
-            # self.close_privacy_window()
-            self.assert_item_to_basket()
+        self.open()
+        # self.save_screenshot("1.png")
+        # self.close_privacy_window()
+        self.assert_item_to_basket()
 
+    @allure.step('Get name of first product')
     def get_name_of_first_product(self):
-        with allure.step('Get name of first product'):
-            return self.get_text(self.FIRST_PRODUCT)
+        return self.get_text(self.FIRST_PRODUCT)
 
-    # def get_name_of_first_product(self):
-    #     with allure.step('Take name of first product in main page'):
-    #         return self.get_href(self.FIRST_ITEM_NAME)
-
+    @allure.step('Getting price from main page')
     def get_price_of_product(self):
-        with allure.step('Getting price from main page'):
             return self.get_price(self.FINAL_PRICE)
 
+    @allure.step('Assert main page is opened')
     def assert_that_mainpage_is_opened(self):
-        with allure.step('Assert main page is opened'):
-            assert self.get_element(self.MAIN_LOGO)
-            assert self.get_element(self.PROFILE_FIELD)
-            assert self.get_element(self.BASKET)
+        assert self.get_element(self.MAIN_LOGO)
+        assert self.get_element(self.PROFILE_FIELD)
+        assert self.get_element(self.BASKET)
 
     def get_context_menu(self):
-        # self.get_element(self.PROFILE_FIELD).click()
         self.click(self.PROFILE_FIELD)
         time.sleep(1)
-        # assert self.get_element(self.CONTEXT_MENU)
 
+    @allure.step('Go to contacts page')
     def go_to_contacts(self):
-        with allure.step('Go to contacts page'):
-            self.close_privacy_window()
-            self.click(self.CONTACT_TITLE)
+        self.close_privacy_window()
+        self.click(self.CONTACT_TITLE)
 
+    @allure.step('Go to laptops page')
     def go_to_laptops(self):
-        with allure.step('Go to laptops page'):
-            self.click(self.LAPTOPS)
+        self.click(self.LAPTOPS)
 
+    @allure.step('Take item to basket')
     def assert_item_to_basket(self):
-        with allure.step('Take item to basket'):
-            self.go_to_laptops()
-            self.close_privacy_window()
-            self.click(self.FIRST_ITEM_BUTTON)
-            time.sleep(2)
-            assert self.ITEM_TO_BASKET
+        self.go_to_laptops()
+        self.close_privacy_window()
+        self.click(self.FIRST_ITEM_BUTTON)
+        time.sleep(2)
+        assert self.ITEM_TO_BASKET
 
+    @allure.step('Change language')
     def change_language(self):
-        with allure.step('Change language'):
-            self.click(self.LANGUAGE_SWITCHER)
-            web = 'Alza.sk - Jazyk / Language'
-            web2 = 'Alza.sk - Language'
-            time.sleep(1)
-            status_language_element = self.driver.find_element(*self.STATUS_LANGUAGE)
-            status_language_text = status_language_element.text
-            if web in status_language_text:
-                with allure.step('Switch to english'):
-                    self.click(self.ENGLISH_BUTTON)
-            if web2 in status_language_text:
-                with allure.step('Switch to slovak'):
-                    self.click(self.SLOVAK_BUTTON)
-            self.click(self.CONFIRM_BUTTON)
+        self.click(self.LANGUAGE_SWITCHER)
+        web = 'Alza.sk - Jazyk / Language'
+        web2 = 'Alza.sk - Language'
+        time.sleep(1)
+        status_language_element = self.driver.find_element(*self.STATUS_LANGUAGE)
+        status_language_text = status_language_element.text
+        if web in status_language_text:
+            with allure.step('Switch to english'):
+                self.click(self.ENGLISH_BUTTON)
+        if web2 in status_language_text:
+            with allure.step('Switch to slovak'):
+                self.click(self.SLOVAK_BUTTON)
+        self.click(self.CONFIRM_BUTTON)
 
+    @allure.step("Assert language is switched to English")
     def assert_that_language_switched_to_english(self):
-        with allure.step("Assert language is switched to English"):
-            assert self.PHONES
+        assert self.PHONES
 
+    @allure.step("Assert language is switched to Slovak")
     def assert_that_language_switched_to_slovak(self):
-        with allure.step("Assert language is switched to Slovak"):
-            assert self.MOBILY
+        assert self.MOBILY

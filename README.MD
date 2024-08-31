@@ -46,5 +46,5 @@ make test-all
 ```bash
 docker build -t alza .
 
-docker run --rm alza make test-api
+docker run --rm alza make test-test_api
 ```
