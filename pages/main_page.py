@@ -19,6 +19,9 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     @allure.step('Open main page')
     def open(self):
         self.open_page(BASE_URL)
+        self.add_cookies('ALWCS', '0')
+        self.add_cookies('CBARIH', '1')
+        self.driver.refresh()
 
     @allure.step('Close privacy window')
     def close_privacy_window(self):
@@ -36,17 +39,14 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     def to_product_page(self):
         self.open()
         self.go_to_laptops()
-        self.close_privacy_window()
+        # self.close_privacy_window()
         name_from_main_page = self.get_name_of_first_product()
         self.open_first_product()
         return name_from_main_page
 
-    @allure.step('Buy first product')
-    def buy_first_product(self):
-        self.open()
-        # self.save_screenshot("1.png")
-        # self.close_privacy_window()
-        self.assert_item_to_basket()
+    # @allure.step('Buy first product')
+    # def buy_first_product(self):
+    #     self.add_item_to_basket_and_assert()
 
     @allure.step('Get name of first product')
     def get_name_of_first_product(self):
@@ -68,7 +68,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
 
     @allure.step('Go to contacts page')
     def go_to_contacts(self):
-        self.close_privacy_window()
+        # self.close_privacy_window()
         self.click(self.CONTACT_TITLE)
 
     @allure.step('Go to laptops page')
@@ -76,12 +76,9 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         self.click(self.LAPTOPS)
 
     @allure.step('Take item to basket')
-    def assert_item_to_basket(self):
-        self.go_to_laptops()
-        self.close_privacy_window()
+    def add_item_to_basket(self):
         self.click(self.FIRST_ITEM_BUTTON)
         time.sleep(2)
-        assert self.ITEM_TO_BASKET
 
     @allure.step('Change language')
     def change_language(self):
@@ -106,3 +103,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     @allure.step("Assert language is switched to Slovak")
     def assert_that_language_switched_to_slovak(self):
         assert self.MOBILY
+
+    @allure.step('Take item to basket')
+    def assert_that_item_added(self):
+        assert self.get_element(self.ITEM_TO_BASKET)

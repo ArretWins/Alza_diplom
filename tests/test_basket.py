@@ -12,20 +12,26 @@ class TestBasket:
     @allure.title('Open basket')
     def test_basket(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
         name_from_main = main_page.get_name_of_first_product()
+        main_page.add_item_to_basket()
+        main_page.assert_that_item_added()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
         basket_page = BasketPage(driver)
-        name_from_basket = basket_page.get_name_of_main_product()
-        basket_page.assert_that_names_are_equals(name_from_main, name_from_basket)
+        basket_page.assert_that_names_are_equals(name_from_main)
 
     @allure.title('Price')
     def test_price(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
         price_from_page = main_page.get_price_of_product()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
@@ -36,7 +42,10 @@ class TestBasket:
     @allure.title('Plus button')
     def test_plus_button(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
@@ -46,7 +55,10 @@ class TestBasket:
     @allure.title('Minus button')
     def test_minus_button(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
@@ -56,7 +68,10 @@ class TestBasket:
     @allure.title('Plus button')
     def test_disabled_plus_button(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
@@ -71,7 +86,10 @@ class TestBasket:
     @allure.title('Delete product')
     def test_delete_product(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
@@ -83,7 +101,10 @@ class TestBasket:
     @allure.title('Cancel of deleting product')
     def test_cancel_of_deleting_product(self, driver):
         main_page = MainPage(driver)
-        main_page.buy_first_product()
+        main_page.open()
+        main_page.go_to_laptops()
+        main_page.add_item_to_basket()
+
         header_element = HeaderElement(driver)
         header_element.open_basket()
 
