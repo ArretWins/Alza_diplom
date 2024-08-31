@@ -83,5 +83,8 @@ report-main:
 report-product:
 	allure serve $(ALLURE_DIR)$(PRODUCT)
 
+report-contact:
+	allure serve $(ALLURE_DIR)$(CONTACT)
+
 clean-allure:
 	rm -rf allure-results/

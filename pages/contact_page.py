@@ -2,7 +2,6 @@ import time
 
 from pages.base_page import BasePage
 from locators.contact_locators import ContactLocators
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 import allure
@@ -14,69 +13,69 @@ class ContactPage(BasePage, ContactLocators):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step('Click product button')
     def click_product(self):
-        with allure.step('Click product button'):
-            self.click(self.PRODUCT)
+        self.click(self.PRODUCT)
 
+    @allure.step('Click order button')
     def click_order(self):
-        with allure.step('Click order button'):
-            self.click(self.ORDER)
+        self.click(self.ORDER)
 
+    @allure.step('Click claims button')
     def click_claims(self):
-        with allure.step('Click claims button'):
-            self.click(self.CLAIMS)
+        self.click(self.CLAIMS)
 
+    @allure.step('Click service button')
     def click_service(self):
-        with allure.step('Click service button'):
-            self.click(self.SERVICE)
+        self.click(self.SERVICE)
 
+    @allure.step('Click other button')
     def click_other(self):
-        with allure.step('Click other button'):
-            self.click(self.OTHER)
+        self.click(self.OTHER)
 
+    @allure.step('Click post button')
     def click_post(self):
-        with allure.step('Click post button'):
-            self.click(self.POST_CONTAINER)
+        self.click(self.POST_CONTAINER)
 
+    @allure.step('Click alza plus span')
     def click_alza_plus(self):
-        with allure.step('Click alza plus span'):
-            self.click(self.ALZA_PLUS)
+        self.click(self.ALZA_PLUS)
 
+    @allure.step('Click alza plus list')
     def click_alza_list(self):
-        with allure.step('Click alza plus list'):
-            self.click(self.ALZA_PLUS_LIST)
+        self.click(self.ALZA_PLUS_LIST)
 
+    @allure.step('Click alza plus href')
     def click_alza_href(self):
-        with allure.step('Click alza plus href'):
-            self.click(self.ALZA_PLUS_HREF)
+        self.click(self.ALZA_PLUS_HREF)
 
+    @allure.step('Scroll')
     def scroll(self):
-        with allure.step('Scroll'):
-            action = ActionChains(self.driver)
-            action.scroll_to_element(self.MESSAGE_AREA)
+        action = ActionChains(self.driver)
+        action.scroll_to_element(self.MESSAGE_AREA)
 
+    @allure.step('Search product')
     def search_input(self):
-        with allure.step('Search product'):
-            self.fill(self.PRODUCT_INPUT, "Macbook")
-            self.click(self.CHOOSE_PRODUCT)
+        self.fill(self.PRODUCT_INPUT, "Macbook")
+        self.click(self.CHOOSE_PRODUCT)
 
+    @allure.step('Search discussion')
     def search_discussion(self):
-        with allure.step('Search discussion'):
-            self.fill(self.DISCUSSION_SEARCH, "Minecrat")
-            time.sleep(3)
+        self.fill(self.DISCUSSION_SEARCH, "Minecrat")
+        time.sleep(3)
 
+    @allure.step('Assert that contact page is opened')
     def assert_that_contact_page_is_opened(self):
-        with allure.step('Assert that contact page is opened'):
-            assert self.get_element(self.PRODUCT)
-            assert self.get_element(self.ORDER)
-            assert self.get_element(self.CLAIMS)
-            assert self.get_element(self.SERVICE)
-            assert self.get_element(self.OTHER)
+        assert self.get_element(self.PRODUCT)
+        assert self.get_element(self.ORDER)
+        assert self.get_element(self.CLAIMS)
+        assert self.get_element(self.SERVICE)
+        assert self.get_element(self.OTHER)
 
+    @allure.step('Assert answer')
     def assert_answer(self):
-        with allure.step('Assert answer'):
-            assert self.get_element(self.ANSWER)
+        assert self.get_element(self.ANSWER)
 
+    @allure.step("Assert that alza+ page is opened")
     def assert_that_alza_plus_page_is_opened(self):
-        with allure.step("Assert that alza+ page is opened"):
-            assert self.get_element(self.ALZA_PLUS_PAGE)
+        assert self.get_element(self.ALZA_PLUS_PAGE)
