@@ -13,67 +13,67 @@ class LoginPage(BasePage, LoginLocators):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step('Login by google')
     def login_by_google(self):
-        with allure.step('Login by google'):
-            self.click(self.GOOGLE_LOGIN)
-            time.sleep(1)
+        self.click(self.GOOGLE_LOGIN)
+        time.sleep(1)
 
+    @allure.step('Login by apple')
     def login_by_apple(self):
-        with allure.step('Login by apple'):
-            self.click(self.APPLE_LOGIN)
-            time.sleep(1)
+        self.click(self.APPLE_LOGIN)
+        time.sleep(1)
 
+    @allure.step('Click on "forgot password" button')
     def forgot_password(self):
-        with allure.step('Click on "forgot password" button'):
-            self.click(self.FORGOT_PASSWORD)
+        self.click(self.FORGOT_PASSWORD)
 
+    @allure.step('Send email')
     def send_email(self):
-        with allure.step('Send email"'):
-            self.fill(self.EMAIL_FIELD, 'alzatestuser@gmail.com')
+        self.fill(self.EMAIL_FIELD, 'alzatestuser@gmail.com')
 
+    @allure.step('Send password')
     def send_password(self):
-        with allure.step('Send password'):
-            self.fill(self.PASSWORD_FIELD, 'testuser02')
+        self.fill(self.PASSWORD_FIELD, 'testuser02')
 
+    @allure.step('Click on "Login" button')
     def login(self):
-        with allure.step('Click on "Login" button'):
-            self.click(self.LOGIN_BUTTON)
+        self.click(self.LOGIN_BUTTON)
 
+    @allure.step('Check if login is opened')
     def assert_that_login_is_opened(self):
-        with allure.step('Check if login is opened'):
-            assert self.get_element(self.EMAIL_FIELD)
-            assert self.get_element(self.PASSWORD_FIELD)
-            assert self.get_element(self.LOGIN_BUTTON)
+        assert self.get_element(self.EMAIL_FIELD)
+        assert self.get_element(self.PASSWORD_FIELD)
+        assert self.get_element(self.LOGIN_BUTTON)
 
+    @allure.step('Fill in invalid login form')
     def assert_fill_invalid_login_form(self):
-        with allure.step('Fill in invalid login form'):
-            self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
-            self.fill(self.PASSWORD_FIELD, '123456789qawsed')
-            self.login()
-            assert self.get_element(self.LOGIN_BUTTON)
+        self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
+        self.fill(self.PASSWORD_FIELD, '123456789qawsed')
+        self.login()
+        assert self.get_element(self.LOGIN_BUTTON)
 
+    @allure.step('Fill login form without password')
     def assert_miss_password_login_form(self):
-        with allure.step('Fill login form without password'):
-            self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
-            self.login()
-            assert self.get_element(self.EMPTY_FORM)
+        self.fill(self.EMAIL_FIELD, 'wrong@@mail.com')
+        self.login()
+        assert self.get_element(self.EMPTY_FORM)
 
+    @allure.step('Fill login form without email')
     def assert_miss_email_login_form(self):
-        with allure.step('Fill login form without email'):
-            self.fill(self.PASSWORD_FIELD, '123456789qawsed')
-            self.login()
-            assert self.get_element(self.EMPTY_FORM)
+        self.fill(self.PASSWORD_FIELD, '123456789qawsed')
+        self.login()
+        assert self.get_element(self.EMPTY_FORM)
 
+    @allure.step('Assert that Google and Apple buttons exists')
     def assert_login_social_buttons(self):
-        with allure.step('Assert that Google and Apple buttons exists'):
-            assert self.get_element(self.GOOGLE_LOGIN)
-            assert self.get_element(self.APPLE_LOGIN)
+        assert self.get_element(self.GOOGLE_LOGIN)
+        assert self.get_element(self.APPLE_LOGIN)
 
+    @allure.step('Assert that Google login works')
     def assert_that_google_login_works(self):
-        with allure.step('Assert that Google login works'):
-            assert self.get_element(self.GOOGLE_CHOOSE_PAGE)
+        assert self.get_element(self.GOOGLE_CHOOSE_PAGE)
 
+    @allure.step('Assert that Apple login works')
     def assert_that_apple_login_works(self):
-        with allure.step('Assert that Apple login works'):
-            assert self.get_element(self.APPLE_CHOOSE_PAGE)
+        assert self.get_element(self.APPLE_CHOOSE_PAGE)
 
