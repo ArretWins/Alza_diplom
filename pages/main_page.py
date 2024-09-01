@@ -33,28 +33,15 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
 
     @allure.step('Open first product')
     def open_first_product(self):
-        self.click(self.FIRST_PRODUCT)
-
-    @allure.step('Open product page')
-    def to_product_page(self):
-        self.open()
-        self.go_to_laptops()
-        # self.close_privacy_window()
-        name_from_main_page = self.get_name_of_first_product()
-        self.open_first_product()
-        return name_from_main_page
-
-    # @allure.step('Buy first product')
-    # def buy_first_product(self):
-    #     self.add_item_to_basket_and_assert()
+        self.click(self.NAME_OF_FIRST_PRODUCT)
 
     @allure.step('Get name of first product')
     def get_name_of_first_product(self):
-        return self.get_text(self.FIRST_PRODUCT)
+        return self.get_text(self.NAME_OF_FIRST_PRODUCT)
 
     @allure.step('Getting price from main page')
     def get_price_of_product(self):
-            return self.get_price(self.FINAL_PRICE)
+        return self.get_price(self.FINAL_PRICE)
 
     @allure.step('Assert main page is opened')
     def assert_that_mainpage_is_opened(self):
