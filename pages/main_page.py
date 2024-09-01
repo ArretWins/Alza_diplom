@@ -62,6 +62,7 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         assert self.get_element(self.PROFILE_FIELD)
         assert self.get_element(self.BASKET)
 
+    @allure.step("Get context menu")
     def get_context_menu(self):
         self.click(self.PROFILE_FIELD)
         time.sleep(1)
@@ -99,12 +100,17 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
 
     @allure.step("Assert language is switched to English")
     def assert_that_language_switched_to_english(self):
-        assert self.PHONES
+        assert self.get_element(self.PHONES)
 
     @allure.step("Assert language is switched to Slovak")
     def assert_that_language_switched_to_slovak(self):
-        assert self.MOBILY
+        assert self.get_element(self.MOBILY)
 
     @allure.step('Take item to basket')
     def assert_that_item_added(self):
         assert self.get_element(self.ITEM_TO_BASKET)
+
+    @allure.step('Assert that context menu is opened')
+    def assert_context_menu(self):
+        assert self.get_element(self.CONTEXT_MENU)
+
