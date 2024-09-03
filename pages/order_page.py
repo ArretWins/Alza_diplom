@@ -8,8 +8,8 @@ class OrdersPage(BasePage, OrderLocators):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step('Assert that orders are open')
     def assert_that_orderspage_is_opened(self):
-        with allure.step('Assert that orders are open'):
-            assert self.get_element(self.SEARCH_ORDER_TEXT)
-            assert self.get_element(self.SEARCH_ORDER_INPUT)
-            assert self.get_element(self.SEARCH_ORDER_BUTTON)
+        assert self.get_element(self.SEARCH_ORDER_TEXT)
+        assert self.get_element(self.SEARCH_ORDER_INPUT)
+        assert self.get_element(self.SEARCH_ORDER_BUTTON)

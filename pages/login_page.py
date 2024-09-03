@@ -16,12 +16,12 @@ class LoginPage(BasePage, LoginLocators):
     @allure.step('Login by google')
     def login_by_google(self):
         self.click(self.GOOGLE_LOGIN)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
 
     @allure.step('Login by apple')
     def login_by_apple(self):
         self.click(self.APPLE_LOGIN)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
 
     @allure.step('Click on "forgot password" button')
     def forgot_password(self):

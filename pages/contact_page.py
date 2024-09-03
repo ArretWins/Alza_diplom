@@ -56,7 +56,7 @@ class ContactPage(BasePage, ContactLocators):
 
     @allure.step('Search product')
     def search_input(self):
-        self.fill(self.PRODUCT_INPUT, "Macbook")
+        self.fill(self.PRODUCT_INPUT, "Macbook m1 vesm")
         self.click(self.CHOOSE_PRODUCT)
 
     @allure.step('Search discussion')

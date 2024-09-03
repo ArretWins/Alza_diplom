@@ -18,7 +18,7 @@ class DeliveryPage(BasePage, DeliveryLocators, Assertions):
     @allure.step('Open alza box')
     def open_alzabox(self):
         self.click(self.ALZA_BOX)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
 
     @allure.step('Open showroom')
     def open_showroom(self):
@@ -54,13 +54,13 @@ class DeliveryPage(BasePage, DeliveryLocators, Assertions):
     @allure.step('Buy in alza box')
     def buy_alza_box(self):
         self.click(self.BRATISlAVA_MARKET)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
         self.click(self.MARKET_CONFIRM)
 
     @allure.step('Buy in alza box')
     def buy_in_markets_and_boxes(self):
         self.click(self.BRATISlAVA_MARKET)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
         self.click(self.MARKET_CONFIRM)
 
     @allure.step('Buy in market')

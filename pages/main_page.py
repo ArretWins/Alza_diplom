@@ -50,9 +50,9 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
         assert self.get_element(self.BASKET)
 
     @allure.step("Get context menu")
-    def get_context_menu(self):
+    def click_context_menu(self):
         self.click(self.PROFILE_FIELD)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
 
     @allure.step('Go to contacts page')
     def go_to_contacts(self):
@@ -67,14 +67,14 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     @allure.step('Take item to basket')
     def add_item_to_basket(self):
         self.click(self.FIRST_ITEM_BUTTON)
-        time.sleep(2)
+        self.driver.implicitly_wait(1)
 
     @allure.step('Change language')
     def change_language(self):
         self.click(self.LANGUAGE_SWITCHER)
         web = 'Alza.sk - Jazyk / Language'
         web2 = 'Alza.sk - Language'
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
         status_language_element = self.driver.find_element(*self.STATUS_LANGUAGE)
         status_language_text = status_language_element.text
         if web in status_language_text:

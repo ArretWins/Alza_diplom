@@ -44,8 +44,8 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
 
     @allure.step('Fill the discussions input field')
     def fill_discussions_input(self):
-        self.fill(self.DISCUSSION_INPUT, '16GB')
-        time.sleep(2)
+        self.fill(self.DISCUSSION_INPUT, 'GB')
+        self.driver.implicitly_wait(2)
 
     @allure.step('Open product photos')
     def open_photos(self):
@@ -60,7 +60,7 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
     def choose_address(self):
         self.fill(self.DELIVERY_INPUT, Keys.ARROW_DOWN)
         self.fill(self.DELIVERY_INPUT, Keys.ENTER)
-        time.sleep(1)
+        self.driver.implicitly_wait(1)
 
     # def close_privacy_window(self):
     #     with allure.step('Close privacy window'):

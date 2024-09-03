@@ -1,3 +1,4 @@
+from selenium.common import TimeoutException, NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.webdriver import WebDriver
@@ -84,6 +85,15 @@ class BasePage:
                 if cookie['name'] == name:
                     return cookie['value']
 
+    def wait_for(self, locator, time_out=10):
+        try:
+            element = WebDriverWait(self.driver, time_out).until(
+                EC.visibility_of_element_located(locator)
+            )
+            return element
+        except (NoSuchElementException, TimeoutException):
+            assert False, f"Element {locator} does not find"
+
     def select_by_visible_text(self, locator, text):
         with allure.step("Select element by visible text"):
             select = Select(self.get_element(locator))
@@ -94,6 +104,6 @@ class BasePage:
             select = Select(self.get_element(locator))
             select.select_by_value(value)
 
-    def back_button(self):
+    def click_back_button(self):
         with allure.step('Navigate back'):
             self.driver.back()

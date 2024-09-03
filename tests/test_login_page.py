@@ -12,7 +12,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -25,7 +25,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -34,7 +34,7 @@ class TestLogin:
         login_page.send_email()
         login_page.send_password()
         login_page.login()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
         header_element.assert_that_login_correct()
 
     @allure.title('Miss password')
@@ -42,7 +42,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -55,7 +55,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -68,7 +68,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -81,7 +81,7 @@ class TestLogin:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
 
         header_element = HeaderElement(driver)
         header_element.open_login()
@@ -89,8 +89,8 @@ class TestLogin:
         login_page = LoginPage(driver)
         login_page.login_by_google()
         login_page.assert_that_google_login_works()
-        login_page.back_button()
+        login_page.click_back_button()
         login_page.login_by_apple()
         login_page.assert_that_apple_login_works()
-        login_page.back_button()
+        login_page.click_back_button()
         login_page.assert_login_social_buttons()

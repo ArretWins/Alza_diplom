@@ -45,7 +45,7 @@ class TestMain:
         main_page = MainPage(driver)
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
-        main_page.get_context_menu()
+        main_page.click_context_menu()
         main_page.assert_context_menu()
 
     @allure.title('Open login')
@@ -54,7 +54,7 @@ class TestMain:
         main_page.open()
         main_page.assert_that_mainpage_is_opened()
 
-        main_page.get_context_menu()
+        main_page.click_context_menu()
         header_element = HeaderElement(driver)
         header_element.open_login()
         login_page = LoginPage(driver)
