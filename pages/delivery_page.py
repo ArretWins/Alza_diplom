@@ -1,6 +1,5 @@
 import time
 
-from selenium.common import NoSuchElementException, TimeoutException
 from helpers.assertions import Assertions
 from pages.base_page import BasePage
 from locators.delivery_locators import DeliveryLocators

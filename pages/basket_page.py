@@ -23,7 +23,6 @@ class BasketPage(BasePage, BasketLocators):
 
     @allure.step('Getting max limit of product')
     def get_limit_of_product(self):
-        limit = 1
         no_limit = 1
         while True:
             self.click(self.PLUS_BUTTON)
@@ -35,7 +34,6 @@ class BasketPage(BasePage, BasketLocators):
                     break
             try:
                 self.get_element(self.PLUS_DISABLED)
-                limit = 2
                 return True
                 break
             except TimeoutException:

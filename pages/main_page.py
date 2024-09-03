@@ -1,12 +1,9 @@
-import time
-
 from selenium.common import NoSuchElementException, TimeoutException
 
 from helpers import BASE_URL
 from pages.base_page import BasePage
 from locators.header_locators import HeaderLocators
 from locators.main_page_locators import MainLocators
-from locators.product_locators import ProductLocators
 import allure
 
 
@@ -100,4 +97,3 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
     @allure.step('Assert that context menu is opened')
     def assert_context_menu(self):
         assert self.get_element(self.CONTEXT_MENU)
-

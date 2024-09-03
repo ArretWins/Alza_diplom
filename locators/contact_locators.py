@@ -20,4 +20,3 @@ class ContactLocators:
     ALZA_PLUS_PAGE = (By.XPATH, '//h1[@itemprop="name"]')
 
     MESSAGE_AREA = (By.XPATH, '//textarea[@name="message"]')
-

@@ -35,4 +35,3 @@ class ProductLocators:
     DISCUSSION_INPUT = (By.XPATH, '//input[@class="textbox discussion-filter__search-input"]')
     ANSWER_SPAN = (By.XPATH, '//span[@class="reactionsCountSuffix"]')
     EXPERT_IMAGE = (By.XPATH, '//img[@class="authorImage vendorExpert"]')
-

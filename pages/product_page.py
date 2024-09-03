@@ -128,4 +128,3 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
     def get_product_name(self):
         time.sleep(1)
         return self.get_text(self.PRODUCT_NAME)
-

@@ -1,8 +1,5 @@
-import time
-
 from pages.base_page import BasePage
 from locators.login_locators import LoginLocators
-from selenium.webdriver.common.keys import Keys
 
 import allure
 
@@ -76,4 +73,3 @@ class LoginPage(BasePage, LoginLocators):
     @allure.step('Assert that Apple login works')
     def assert_that_apple_login_works(self):
         assert self.get_element(self.APPLE_CHOOSE_PAGE)
-
