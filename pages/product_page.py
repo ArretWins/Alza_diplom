@@ -62,13 +62,6 @@ class ProductPage(BasePage, ProductLocators, MainLocators, LoginLocators):
         self.fill(self.DELIVERY_INPUT, Keys.ENTER)
         self.driver.implicitly_wait(1)
 
-    # def close_privacy_window(self):
-    #     with allure.step('Close privacy window'):
-    #         try:
-    #             self.click(self.PRIVACY_WINDOW)
-    #         except (NoSuchElementException, TimeoutException) as e:
-    #             pass
-
     @allure.step('Buy products')
     def buy_product(self):
         self.click(self.BUY_BUTTON)

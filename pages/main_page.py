@@ -53,7 +53,6 @@ class MainPage(BasePage, HeaderLocators, MainLocators):
 
     @allure.step('Go to contacts page')
     def go_to_contacts(self):
-        # self.close_privacy_window()
         self.click(self.CONTACT_TITLE)
 
     @allure.step('Go to laptops page')

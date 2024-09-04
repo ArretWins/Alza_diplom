@@ -6,7 +6,6 @@ class PetStoreService(BaseService):
 
     def __init__(self):
         super().__init__()
-        # self.url = 'https://petstore.swagger.io/#/pet/addPet'
         self.url = 'https://petstore.swagger.io/v2/pet'
 
     def add_pet(self, pet_id, pet):
